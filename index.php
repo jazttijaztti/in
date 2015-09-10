@@ -13,6 +13,10 @@ echo "data from Rr";
 
 echo "data from qqq";
 
-echo "data from www";
+iyecho "data from www";
+
+
+iyecho "data from yyy";
+
 
 ?>
