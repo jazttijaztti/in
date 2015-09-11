@@ -1,7 +1,10 @@
-ferdi
+<?php
+
+echo "<h1>THankyou </h1>";
 
 
-just show  "thank you"
+?>
+
 
 
 

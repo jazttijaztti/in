@@ -1,3 +1,7 @@
+<?php
+session_start();
+
+?>
 <html>
 <head>
 <meta charset="utf-8">
@@ -9,9 +13,27 @@
 				
 		<form action="send.php" method="POST">
         
-			E-Mail <input type="email" name="email"><br><br>
+			E-Mail <input type="type" name="email" value="<?php 
+
+			if(isset($_SESSION['email']))
+			{
+				echo $_SESSION['email'];
+			}
+			?>">* <?php
+
+                        if(isset($_SESSION['error']))
+                        {
+                                echo $_SESSION['error'];
+                        }
+                        ?><br><br>
             
-			Name <input type="text" name="name"><br><br>
+			Name <input type="text" name="name" value="<?php
+
+                        if(isset($_SESSION['name']))
+                        {
+                                echo $_SESSION['name'];
+                        }
+                        ?>"><br><br>
 			
 			Date of Birth <input type="date" name="dateofbirth"><br><br>
             
