@@ -1,0 +1,256 @@
+
+	*{
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing:border-box; 
+		-o-box-sizing:border-box;
+		-ms-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+
+#wrapper{
+	width: 75%;
+	margin-left:15%;
+	margin-right:15%;
+}
+
+#topbar{
+	width: 100%;
+	height: 50px;
+
+	}
+	#jouhou{
+		float:right;
+	}
+	.clear {
+		clear:both;　/*floatの解除、ここがポイント*/
+	}
+
+#menubar{
+	width: 100%;
+	height: 40px;
+	background-color:#3d2900;
+}
+
+	#menubar ul {
+	 	margin: 0;
+	 	padding: 0;
+	}
+
+	#menubar ul li{
+		list-style: none;
+		width: calc(100% /6);
+		height:50px;
+		float: left;
+		font-size: 13px;
+		color: white;
+		padding-top:5px;
+		text-align: center;
+		margin-top: 5px;
+	}
+
+	#menubar ul li:last-child{
+		}
+
+	#menubar ul li>span{
+		font-size: 2px;
+		color: #eceac5;
+		margin-top: 5px;
+	}
+
+#cash{
+	font-size: 10px;
+}
+#topcontents{
+	width: 100%;
+	height: 400px;
+}
+	#left{
+
+		width: 70%;
+		height: 400px;	
+		float: left;
+	}
+	/*なんかややこしい感じ。もっとスッキリさせたい*/
+	#left img{
+		width: 100%;
+		height: 400px;	
+		float: left;
+
+	}
+	#right{
+		width:28%;
+		height: 400px;
+		float: right;
+		border: 3px solid #eceac5;
+		background-color: #f8f4e8;
+	}
+
+		#waku{
+			width: 90%;
+			margin-left: 5%;
+			margin-right: 5%;
+			height: 350px;
+		}
+		
+		#waku ul{
+			margin: 0;
+			padding: 0;
+		}
+		#waku ul li{
+			width: 90%;
+			margin-right: 5%;
+			margin-left: 5%; 
+			height: 80px;
+			background-color: #3d2900;
+			list-style: none;
+			margin-top:5%;
+			padding: 15px;
+			color: white;
+		}
+
+#informationbar p{
+	font-size: 20px;
+	color: brown;
+	height: 30px;
+}/*高さ変わらず*/
+
+#middlecontents{
+	width: 100%;
+	height: 500px;
+}
+
+	#leftinfo{
+		width: 70%;
+		height: 500px;
+		float: left;
+	}
+		#news {
+			width: 100%;
+			height: 200px;
+			background-color: #fffccc;
+			/*かどまる*/
+			border-radius: 10px;
+			-webkit-border-radius:10px;
+			-moz-border-radius:10px;
+			/*スクロール*/
+			overflow: scroll;
+
+		}
+		ul.newsbox li {
+			font-size: 10px;
+			height: 30px;
+			display: inline-block;
+			z-index: 1;
+			position: relative;
+			border-bottom: 1px dotted white-gray;
+			margin-left: 10px;
+		}
+		.iro{
+			color: orange;
+		}
+
+		#faqbar{
+			width: 100%;
+			height: 50px;
+		}
+		#faqbar ul li {
+			display: inline-block;
+		}
+
+
+		#otherinfo ul li {
+			padding:10px;
+			width:32%;
+			display: inline-block; 
+		}
+		#otherinfo ul li img{
+			width: 100%;
+			list-style:none;
+		 	border:1px solid white-gray;
+		}
+
+	/*本当は間を創りたい*/
+
+	#rightinfo{
+		width: 28%;
+		float: right;
+	}
+
+		#rightinfo ul{
+			margin:0;
+			padding: 0;
+			float:right;
+			list-style: none;}
+
+		#rightinfo ul li img{
+			width: 100%;
+			/*height: 60px;*/
+			margin-bottom: 10px;
+			border: 3px solid #eceac5;
+		}
+
+#bottomcontents{
+	width: 100%;
+	height: 200px;
+}
+	#others{
+		width: 70%;
+		float: left;
+	}
+	#sns{
+		width: 30%;
+		height: 150px;
+		float: left;
+	}
+
+.clear{
+	clear: both;
+}
+
+#bottombar{
+	width: 100%;
+	height: 30px;
+}
+	#bottombar img{
+		width: 25%;
+		float: left;
+	}
+	#corpsite{
+		float: left;
+		font-size: 10px;
+		margin-top: 10px;
+		margin-right: 5px;
+	} /*マージンなくてもいけるのなんで？*/
+
+	#bottominfo{
+		float: left;
+		width: 60%;
+		}
+
+	#bottominfo ul li{
+		height: 30px;
+		list-style: none;
+		font-size: 10px;
+		float: left;
+		margin-right: 10px;
+		margin-top: 10px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
