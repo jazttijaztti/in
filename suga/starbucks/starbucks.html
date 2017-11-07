@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Starbucks Coffee</title>
+
+	<meta charset="UTF-8">
+	<link href="reset2.css" type="text/css" rel="stylesheet"/>
+	<link href="starbucks.css" type="text/css" rel="stylesheet"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+
+<script>
+	$(function(){
+	$("#bottom").on("click",function(){
+		$("#wrapper").css("width","60%");
+		$("#wrapper").css("margin-left","20%");
+		$("wrapper").css("margin-right","20%");
+
+	});
+
+	$("#logo").on("click",function(){
+		$("#logo img").css("width","100px");
+		$(".title").css("background-color","red");
+
+	});
+	　
+	$("#logo").on("click",function(){
+         $("#open").slideToggle("slow");
+    });
+
+	$("#logo img").draggable();
+
+
+//この間に書かないとだめ！＄後はcssと同じ書き方をする
+
+	});
+</script>
+
+<!--
+
+<script> 
+
+$(function(){
+
+	$(".topleft").on("mouseover",function(){
+	 $("#logo").slideToggle("slow");
+	});
+	$("#logo").on("mouseover",function(){
+		$(".topleft").css("font-size","40px");
+	});
+
+
+	$("#bigbanner").on("click",function(){
+		$("#logo").css("background-color","red");
+	});
+
+});
+</script>-->
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="left">
+			<div id="logo">
+				<img src="sb-logo.png">	
+			</div>
+			<div class="title">
+				<p>Coffee</p>		
+				<p>Cafe</p>
+				<p>Company<br>&Job</p>
+				<p>Service<br>&Login</p>
+			</div>
+			<div id="open">
+				<p>どうもスターバックスです!!</p>					
+			</div>
+		</div>
+
+		<div id="big-right">
+
+			<div id="center">
+					<img src="sb-bigbannar.png">		
+			</div>
+			<div id="right">
+				<div id="arart">
+					<p>弊社ホームページにおけるセキュリティ強化に関する重要なお知らせ<br>
+オークションサイトなどで購入したスターバックス カード および<br> Starbucks eGiftについてのご注意<br>
+「STARBUCKS TOUCH The Drip」の再販売についてのご案内</p>
+				</div>
+
+				<div id="brewing">
+					<p>What’s Brewing</p>
+					<div class="article">
+						<div class="picture">
+							<img src="article1.png">	
+						</div>
+						<div class="bun">
+							<p>[新商品情報] グレーピー グレープ & ティー ジェリー フラペチーノ®</p>
+						</div>
+						<div class="date">
+							<p>17.09.01</p>
+						</div>
+					</div>
+					<div class="article">
+						<div class="picture">
+							<img src="article2.jpg">	
+						</div>
+						<div class="bun">
+							<p>スターバックス リザーブ®に新たに2品登場。オンラインストアでもご購入いただけます。</p>
+						</div>
+						<div class="date">
+							<p>17.09.06</p>
+						</div>
+					</div>
+					<div class="article">
+						<div class="picture">
+							<img src="article3.jpg">	
+						</div>
+						<div class="bun">
+							<p>9/5より対象のTEAビバレッジを3杯ご購入の方に、先着でパッカブルバッグをプレゼント！</p>
+						</div>
+						<div class="date">
+							<p>17.09.04</p>
+						</div>
+					</div>
+					<div class="article">
+						<div class="picture">
+							<img src="article4.jpg">	
+						</div>
+						<div class="bun">
+							<p>【新商品】「エスプレッソ」「抹茶ラテ」がリニューアルして、コンビニエンスストアに登場</p>
+						</div>
+						<div class="date">
+							<p>17.09.05</p>
+						</div>
+					</div>		
+					<div class="article">
+						<div class="picture">
+							<img src="article5.jpg">	
+						</div>
+						<div class="bun">
+							<p>コーヒー本来の味わいを存分に楽しめるコーヒープレス。作り方のコツをご紹介。</p>
+						</div>
+						<div class="date">
+							<p>17.09.01</p>
+						</div>
+					</div>	
+					<div class="article">
+						<div class="picture">
+							<img src="article6.jpg">	
+						</div>
+						<div class="bun">
+							<p>ンラインストア限定スターバックス カード付ギフトセット。</p>
+						</div>
+						<div class="date">
+							<p>17.09.01</p>
+						</div>
+					</div>								
+				</div>
+
+				<div id="pickup">
+					<p>Pick Up</p>
+					<div class="article2">
+						<div class="picture2">
+							<img src="pick1.jpg">
+						</div>
+						<div class="bun2">
+							<p>スターバックス ジャパン公式 モバイルアプリ登場</p>
+						</div>
+					</div>
+
+					<div class="article2">
+						<div class="picture2">
+							<img src="pick2.jpg">
+						</div>
+						<div class="bun2">
+							<p>MyStarbucks会員サービスへの登録はこちら</p>
+						</div>
+					</div>
+
+					<div class="article2">
+						<div class="picture2">
+							<img src="pick3.png">
+						</div>
+						<div class="bun2">
+							<p>[採用情報]地域限定正社員募集中！</p>
+						</div>
+					</div>
+
+					<p>News</p>
+					<div class="article3">
+						<div class="bun3">
+							<p>9月9日はみんなでエシカルなコーヒーを楽しむ一日！</p>
+						</div>
+						<div class="date3">
+							<p>17.09.01</p>
+						</div>
+					</div>
+					<div class="article3">
+						<div class="bun3">
+							<p>“Cath Kidston®”デザインのコラボレーショングッズが日本限定初登場</p>
+						</div>
+						<div class="date3">
+							<p>17.08.28</p>
+						</div>
+					</div>
+					<div class="article3">
+						<div class="bun3">
+							<p>スターバックス® チルドカップ「エスプレッソ」「抹茶ラテ」リニューアル</p>
+						</div>
+						<div class="date3">
+							<p>17.08.25</p>
+						</div>
+					</div>
+					<div class="article3">
+						<div class="bun3">
+							<p>『グレーピー グレープ ＆ ティー ジェリー フラペチーノ®』など新ビバレッジ3種が新登場！</p>
+						</div>
+						<div class="date3">
+							<p>17.08.24</p>
+						</div>
+					</div>
+				</div>
+			</div> <!--right の終わり-->
+
+			<div id="bottom" class="clear">
+				<div id="SNS">
+					<ul>
+						<li>公式ブログ　|</li>
+						<li>Twitter　|</li>
+						<li>Facebook　|</li>
+						<li>mixi　|</li>
+						<li>Instagram　|</li>
+						<li>Pinterest　|</li>
+						<li>Sumally</li>
+					</ul>
+				</div>
+				<div id="legal">
+					<ul> 
+						<li>会員登録　|</li>
+						<li>よくあるご質問　|</li>
+						<li>お問い合わせ　|</li>
+						<li>使用条件　|</li>
+						<li>ポリシー　|</li>
+						<li>約款　|</li>
+						<li>規約一覧　|</li>
+						<li>サイトマップ</li>
+					</ul>
+			
+				</div>
+				<div id="credit">
+					<p>©2017 Starbucks Coffee Company. All Rights Reserved.</p>
+				</div>
+
+			</div>
+		</div><!--big-right の終わり-->
+	</div><!--wrapper の終わり-->
+
+
+
+</body>
+</html>
