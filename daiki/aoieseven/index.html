@@ -18,9 +18,13 @@
        
     })
     $('.header_logo').on('click',function(){
-       $('.mv_wrap').slideToggle();
-       $('.point_video01').slideToggle();
-
+       $('#Top').animate({
+          "width": "50%",
+          "margin-top":"600px"
+       })
+       $('.point_wrap').animate({
+          "margin-top":"-1500px"
+       })
     })
   });
  </script>
