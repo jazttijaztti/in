@@ -2,9 +2,22 @@
 <html lang="ja">
 <head>
 	<meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<title></title>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="reset.css">
+    <script>
+    $(function(){
+    $('h1').on('mouseover',function(){
+       $('#all').css('display','block');
+   
+    });  
+   
+    $('.recommend').on('click',function(){
+       $('#all').css('display', 'none');
+    });
+    });
+    </script>
 </head>
 <body>
 	<div class="wrapper">
@@ -18,7 +31,7 @@
 		<h1>タイトル（上京就活、kikka）</h1>
 		<p>上京就活の現状とか、kikkaで何ができるかとかの説明をかく上京就活の現状とか、kikkaで何ができるかとかの説明をかく上京就活の現状とか、kikkaで何ができるかとかの説明をかく上京就活の現状とか、kikkaで何ができるかとかの説明をかく上京就活の現状とか、kikkaで何ができるかとかの説明をかく上京就活の現状とか、kikkaで何ができるかとかの説明をかく上京就活の現状とか、kikkaで何ができるかとかの説明をかく上京就活の現状とか、kikkaで何ができるかとかの説明をかく上京就活の現状とか、kikkaで何ができるかとかの説明をかく上京就活の現状とか、kikkaで何ができるかとかの説明をかく上京就活の現状とか、kikkaで何ができるかとかの説明をかく上京就活の現状とか、kikkaで何ができるかとかの説明をかく上京就活の現状とか、kikkaで何ができるかとかの説明をかく</p>
 	</div>
-
+    <div id="all">
 	<div class="wrapper2">
 	<div class="contents2">
 	</div>
@@ -93,7 +106,7 @@
 			</div>
 		</div>
 	</div>
-
+   </div>
 	</div>
 </body>
 	
