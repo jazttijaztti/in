@@ -1,0 +1,182 @@
+.wrapper{
+	width:100%;
+	text-align:center;
+	box-sizing:border-box;
+	font-family:'Hiragino Kaku Gothic Pro';
+}
+
+.header{
+	height:100px;
+	width:100%;
+	padding-top:5px;
+	position:relative;
+}
+.header img{
+	height:30px;
+	width:30px;
+	position:absolute;
+	top:20px;
+	right:40px;
+
+
+}
+.header h1{
+	font-size:30px;
+	line-height:2em;
+}
+
+.top-image {
+	color:#ffffff;
+	width:33.3%;
+	height:300px;
+	float:left;
+	margin-bottom:100px;
+	position:relative;
+
+}
+
+.top-image p{
+	font-size:1.3em;
+	line-height:1.3em;
+	position:absolute;
+	bottom:40px;
+	text-align:left;
+	margin-right:10px;
+	margin-left:10px;
+}
+.top-image1{
+	background-image:url(beach.jpeg);
+	background-size:cover;
+	background-position:center center;
+	
+}
+
+.top-image2{
+	background-image:url(christmas_dating.jpeg);
+	background-size:cover;
+	background-position:center center;
+
+}
+
+.top-image3{
+	background-image:url(wine.jpeg);
+	background-size:cover;
+	background-position:center center;
+	
+}
+.wrapper2{
+	width:90%;
+	height:1000px;
+	margin-right:5%;
+	margin-left:5%;
+	clear:both;
+	text-align:left;
+
+}
+.wrapper2 h2{
+	padding-top:10px;
+	padding-bottom:20px;
+	border-bottom:solid 1px #000000;
+
+}
+
+
+.matome{
+	width:60%;
+	height:800px;
+	float:left;
+}
+
+
+
+.area {
+	width:30%;
+	height:500px;
+	float:right;
+}
+
+.area ul li{
+	width:50%;
+	padding-top:25px;
+	border-bottom:solid 1px rgba(200,200,200);
+	height:100px;
+	float:left;
+
+
+}
+.area img{
+	height:50px;
+	width:50px;
+	border-radius:25px;
+	float:left;
+	margin-right:20px;
+}
+.area p{
+	height:60px;
+	line-height:3.5em;
+}
+
+
+.tags{
+	width:30%;
+	height:500px;
+	float:right;
+
+
+}
+
+.pickups {
+	margin-top:25px;
+	margin-bottom:25px;
+	border-bottom:1px solid rgba(200,200,200);
+	height:160px;
+	width:100%;
+}
+.pickups img{
+	height:130px;
+	width:30%;
+	float:left;
+
+}
+.pickups h3{
+	float:right;
+	width:65%;
+	line-height:1.3em;
+	font-size:1.2em;
+	margin-bottom:40px;
+
+}
+
+.pickups p{
+	float:right;
+	width:65%;
+	font-size:5px;
+	color:rgba(200,200,200);
+	line-height:2.0em;
+
+}
+
+
+@media(max-width: 800px){
+	.top-image{
+		width:100%;
+	}
+	.top-image p {
+		text-align:center;
+	}
+	.matome{
+		width:100%;
+	}
+	.area{
+		display:none;
+		width:0%;
+	}
+	.tags{
+		display:none;
+		width:0%;
+	
+	}
+
+}
+
+
