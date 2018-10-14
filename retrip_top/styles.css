@@ -1,3 +1,6 @@
+#links > div:hover {
+   opacity:0.6;
+}
 .wrapper{
 	width:100%;
 	text-align:center;

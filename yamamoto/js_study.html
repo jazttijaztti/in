@@ -4,25 +4,54 @@
 <meta charset="utf-8">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>
+$(function(){ 
+   //$(this)を学ぶ。
+   $(".test1").on("click",function(){
+      $(this).css("background-color", "white");
+      $(this).text("aa");
+   });
+
+   //slideToggleには二つパラメータを持たせることができることを学ぶ
+   $(".test2").on("click",function(){
+      $(this).slideToggle(5000,function(){
+         $(this).text("bb");
+         $(this).css("background-color", "rgba(0,0,255,0.6)");
+      });
+   
+   });
+
+   //animateはanimate({位置情報},何秒かけて);という文法であることを学ぶ
+   //.XXX と言って関数をつけていくのはどんどん後ろに付け加えてることができることを学ぶ
+   $(".test3").on("click",function(){
+      $(this).text("テキスト3のテキストを変えます。").animate({marginLeft:"300px"},3000).css("background-color", "red");
+   });
+
+   //.attr("id","id名")で、対象にidをつける
+   //console.logを使うことでブラウザ上でどこまで動いてるか確認できる
+
+});
+</script>
+
+
+
+
+
+
+<script>
 $(function(){
   $('body').fadeIn(2000);
-
-
-  $('.test1').on('click',function(){
-    $(this).text("text関数と$(this)を覚えましょう");
-  });
-
-
+/*
   $('.test2').on('click',function(){
     $(this).toggle(2000,function(){
       $(this).text("toggleを関数にする場合は二つの引数を持ちます。一つは秒、一つは関数");
     });
   });
-  
+  */
+  /*
   $('.test3').on('click',function(){
      $(this).text("animate関数を後ろにつけて効果を足すことができます。基本的に関数は.で足していけます。").animate({marginLeft:"300px"},1000);
   });
-
+  */
   $('.test4').on('click',function(){
      $(this).text("別の場所にidをつけるという関数attrを使ってみました。").animate({
         marginLeft:"300px"
