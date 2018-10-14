@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+$(function(){
+  $(".test1").on("click",function(){
+    $(this).text("aaaaa")
+  });
+  $('body').fadeIn(2000);
+  // $('.test1').on('click',function(){
+  //   $(this).text("text関数と$(this)を覚えましょう");
+  // });
+  // $('.test2').on('click',function(){
+  //   $(this).toggle(2000,function(){
+  //     $(this).text("toggleを関数にする場合は二つの引数を持ちます。一つは秒、一つは関数");
+  //   });
+  // });
+  
+  // $('.test3').on('click',function(){
+  //    $(this).text("animate関数を後ろにつけて効果を足すことができます。基本的に関数は.で足していけます。").animate({marginLeft:"300px"},1000);
+  // });
+  // $('.test4').on('click',function(){
+  //    $(this).text("別の場所にidをつけるという関数attrを使ってみました。").animate({
+  //       marginLeft:"300px"
+  //    },1000);
+  //    $('.test1').attr('id','test5');
+  //    console.log('検証のコンソールログに出せるよ');
+  // });
+  
+  // $(document).on('click','#test5',function(){
+  //    console.log('ここまで来ておる');
+  //    $('.test4').animate({marginLeft:"0px"},1000).removeAttr('id','test5');
+  // });
+  // $(document).on('dblclick','h2',function(){
+  //    $('body').css('padding','0px');
+  // });
+  // $(window).scroll(function() {
+ 
+  //    console.log("スクロール値は$(this).scrollTop()でとる。とった値は→"+ $(this).scrollTop());
+  //    var scrlTop = $(this).scrollTop();
+  //    //もし700くらいならh2をfadeInする
+  //    if (scrlTop > 700) {
+  //        $('h2').fadeIn(2000);
+  //    }
+  //    //ここで、h2とh3のスクロール値をとる
+  //    var h2scrl = $('h2').offset().top;
+  //    var h3scrl = $('h3').offset().top;
+  //    //もしh2のスクロール値よりもスクロールの値が大きかったらcssを変更する
+  //    if (h2scrl < scrlTop ) {
+  //        $('body').css('padding','100px');
+  //    }
+  //    if (h3scrl < scrlTop ) {
+  //        console.log(h3scrl);
+  //        $('body').css('padding','200px');
+  //    }
+  // });
+});
+</script>
+
+
+<style>
+body{
+display:none;
+}
+h2 {
+background-color:rgba(0,0,0,0.7);
+display:none;
+}
+h3 {
+background-color:rgba(0,0,0,0.7);
+}
+.test1{
+background-color:rgba(255,0,0,0.7);
+}
+.test2{
+background-color:rgba(0,255,0,0.7);
+}
+.test3{
+background-color:rgba(0,0,255,0.7);
+}
+.test4{
+background-color:rgba(255,255,0,0.7);
+}
+</style>
+<script>
+</script>
+
+</head>
+<body>
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+<h2>ここはh2だよ</h2>
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+<h3>h3だよーーーーーん</h3>
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+
+<div class="test1">
+テスト1だよ
+</div>
+
+<div class="test2">
+テスト2だよ
+</div>
+
+<div class="test3">
+テスト3だよ
+</div>
+
+<div class="test4">
+テスト4だよ
+</div>
+</body>
+</html>
