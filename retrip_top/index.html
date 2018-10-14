@@ -13,11 +13,23 @@
 				$('.top-image1').on('mouseover',function(){
 					$('.top-image1').css('opacity','0.7');
 				});
+				$('.top-image1').on('mouseout',function(){
+					$('.top-image1').css('opacity','1');
+				});
 				$('.top-image2').on('mouseover',function(){
 					$('.top-image2').css('opacity','0.7');
 				});
+				$('.top-image2').on('mouseout',function(){
+					$('.top-image2').css('opacity','1');
+				});
 				$('.top-image3').on('mouseover',function(){
 					$('.top-image3').css('opacity','0.7');
+				});
+				$('.top-image3').on('mouseout',function(){
+					$('.top-image3').css('opacity','1');
+				});
+				$('.header img').on('click',function(){
+					$('.menu ul li').toggle(1000);
 				});
 
 
@@ -32,6 +44,13 @@
 		<div class="header">
 			<h1>RETRIP</h1>	
 			<img src="menu_retrip.svg">	
+				<div class="menu">
+					<ul>
+						<li>ログイン</li>
+						<li>会員登録</li>
+					</ul>
+				</div>
+
 		</div>
 
 
@@ -187,6 +206,29 @@
 			</div>
 			<div class="tags">
 				<h2>オススメタグ一覧</h2>
+				<ul>
+					<li><img src="hashtag.jpeg">東京の観光スポット</li>
+					<li><img src="hashtag.jpeg">カフェ</li>
+					<li><img src="hashtag.jpeg">居酒屋</li>
+					<li><img src="hashtag.jpeg">旅館</li>
+					<li><img src="hashtag.jpeg">イベント</li>
+					<li><img src="hashtag.jpeg">鎌倉</li>
+					<li><img src="hashtag.jpeg">デートスポット</li>
+					<li><img src="hashtag.jpeg">ホテル</li>
+					<li><img src="hashtag.jpeg">東京のグルメ</li>
+					<li><img src="hashtag.jpeg">国内</li>
+					<li><img src="hashtag.jpeg">スイーツ</li>
+					<li><img src="hashtag.jpeg">グルメ</li>
+					<li><img src="hashtag.jpeg">絶景</li>
+					<li><img src="hashtag.jpeg">温泉</li>
+					<li><img src="hashtag.jpeg">お土産</li>
+					<li><img src="hashtag.jpeg">ラーメン</li>
+					<li><img src="hashtag.jpeg">大阪のグルメ</li>
+					<li><img src="hashtag.jpeg">パンケーキ</li>
+					<li><img src="hashtag.jpeg">ディズニー</li>
+					<li><img src="hashtag.jpeg">沖縄のホテル</li>
+					<li><img src="hashtag.jpeg">東京のホテル</li>
+				</ul>
 			</div>
 		</div>
 
