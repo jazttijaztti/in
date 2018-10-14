@@ -1,0 +1,175 @@
+
+body {
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  font-family: "Hiragino kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+header{
+  width: 100%;
+  height: 85px;
+  background: #fff;
+  border-bottom: #eee solid 1px;
+}
+
+header .headerInner {
+  min-width: 1030px;
+  height: 58px;
+  margin: 0 auto;
+  padding: 27px;
+  position: relative;
+}
+
+h1 .logo{
+  width: 120px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+.mainheader{
+  clear: both;
+  border-bottom: #eee solid 1px;
+}
+
+.mainwrap{
+  position: relative;
+  width: 1030px;
+  padding: 0 25px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.contentTopTitle{
+  clear: both;
+  position: relative;
+  padding-right: 230px;
+  padding: 35px 0 15px;
+}
+
+.contentTopTitle h1{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 5px;
+  display: inline;
+}
+
+.mainwrap .articleSide{
+  float: right;
+  width: 300px;
+}
+
+.articleMain {
+  float: left;
+  width: 700px; 
+}
+
+.contentTop{
+  margin-bottom: 20px;
+}
+
+.contentTop img{
+  width: 700px;
+}
+
+.contentTopDesc{
+  background: #f7f7f7;
+  padding: 20px 25px;
+  margin-bottom: 35px;
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+}
+
+article {
+  display: block;
+}
+
+.mainwrap .articleMain h2 .expHeadline{
+  border-bottom-color: #ffbf00;
+}
+
+.exref{
+  padding: 10px 0 40px;
+}
+ 
+.expItem {
+  clear: both;
+}
+
+.expImg {
+  padding: 0 0 30px;
+}
+
+.expItem{
+  clear: both;
+}
+
+.user{
+  margin-bottom: 12px;
+}
+
+.expImg .instagram .user .userImg{
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.imageArea{
+  
+}
+
+.expImg .instagram .image {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.expRefInner {
+  border-top: #f3f3f3;
+  border-bottom: #f3f3f3 solid 2px;
+  padding: 25px 20px;
+  position: relative;
+}
+
+.expRefInner .refItem{
+  font-size: 18px;
+  line-height: 1.4;
+  color: #555;
+  font-weight: 700;  
+}
+
+.expText {
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 0 0 30px;
+  letter-spacing: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.content ul li {
+  height: 38px;
+  line-height: 40px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-right: 13px;
+  text-align: center;
+  
+}
+
+.area ul li {
+  font-size: 13px;
+    width: 150px;
+    height: 80px;
+    line-height: 80px;
+    overflow: hidden;
+    position: relative;
+    padding-left: 62px;
+    float: left;
+}
