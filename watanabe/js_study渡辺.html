@@ -9,18 +9,19 @@ $(function(){
     $(this).text("aaaaa")
   });
   $('body').fadeIn(2000);
-  // $('.test1').on('click',function(){
-  //   $(this).text("text関数と$(this)を覚えましょう");
-  // });
-  // $('.test2').on('click',function(){
-  //   $(this).toggle(2000,function(){
-  //     $(this).text("toggleを関数にする場合は二つの引数を持ちます。一つは秒、一つは関数");
-  //   });
-  // });
+   $('.test1').on('click',function(){
+     $(this).text("text関数と$(this)を覚えましょう");
+   });
+   $('.test2').on('click',function(){
+     $(this).toggle(2000,function(){
+       $(this).text("toggleを関数にする場合は二つの引数を持ちます。一つは秒、一つは関数");
+     });
+   });
   
-  // $('.test3').on('click',function(){
-  //    $(this).text("animate関数を後ろにつけて効果を足すことができます。基本的に関数は.で足していけます。").animate({marginLeft:"300px"},1000);
-  // });
+   $('.test3').on('click',function(){
+      $(this).text("animate関数を後ろにつけて効果を足すことができます。基本的に関数は.で足していけます。").animate({marginLeft:"300px"},1000);
+   });
+
   // $('.test4').on('click',function(){
   //    $(this).text("別の場所にidをつけるという関数attrを使ってみました。").animate({
   //       marginLeft:"300px"
