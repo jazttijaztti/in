@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   line-height: 1.4;
@@ -5,53 +10,93 @@ body {
   font-family: "Hiragino kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
 }
 
-header{
+.wrapper{
   width: 100%;
-  height: 85px;
-  background: #fff;
-  border-bottom: #eee solid 1px;
+  text-align: center;
 }
 
-header .headerInner {
-  min-width: 1030px;
-  height: 58px;
-  margin: 0 auto;
-  padding: 27px;
+.header{
+  width: 100%;
+  height: 100px;
+  padding-top: 5px;
   position: relative;
 }
 
-h1 .logo{
-  width: 120px;
+.header h1 {
+  font-size: 30px;
+  line-height: 2em;
+}
+
+.header img {
   height: 30px;
-  margin: 0 auto;
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 40px;
 }
 
-h1 {
-  font-size: 100%;
-  font-weight: 400;
+.menu{
+  z-index: 5;
+  position: absolute;
+  right: 80px;
+  top: 70px;
 }
 
-.mainheader{
-  clear: both;
-  border-bottom: #eee solid 1px;
+ul {
+  list-style: none;
 }
 
-.mainwrap{
+.menu ul {
+  width: 160px;
+  position: absolute;
+  background: #F5F5F5;
+  right: 0;
+  top: 48px;
+  z-index: 1000;
+}
+
+.menu ul li {
+  border-bottom: 1px solid #fff;
   position: relative;
-  width: 1030px;
+  display: none;
+}
+
+.subHeader{
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  clear: both;
+  padding: 10px 10px;
+}
+
+.subHeader ul {
+  font-size: 12px;
+  color: #666;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.subHeader ul li{
+  display: inline;
+  line-height: 1.6;
+  margin-left: 5px;
+}
+
+.mainwrapper{
+  width: 90%;
+  position: relative;
   padding: 0 25px;
   margin: 0 auto;
   clear: both;
 }
 
-.contentTopTitle{
+.contentToptitle{
   clear: both;
   position: relative;
   padding-right: 230px;
   padding: 35px 0 15px;
 }
 
-.contentTopTitle h1{
+.contentToptitle h2{
   font-size: 32px;
   font-weight: 700;
   line-height: 1.3;
@@ -59,117 +104,154 @@ h1 {
   display: inline;
 }
 
-.mainwrap .articleSide{
-  float: right;
-  width: 300px;
-}
-
-.articleMain {
+.subwrapper{
   float: left;
-  width: 700px; 
+  width: 65%;
+  margin-right: 40px;
 }
 
-.contentTop{
+.maincontent{
+  float: left;
+  width: 70%;
+}
+
+.contentTop a{
   margin-bottom: 20px;
 }
 
-.contentTop img{
-  width: 700px;
+.contentTop img {
+  width: 600px;
 }
 
-.contentTopDesc{
+.contentToptext{
   background: #f7f7f7;
   padding: 20px 25px;
   margin-bottom: 35px;
   font-size: 15px;
   color: #555;
   line-height: 1.7;
+  width: 600px;
 }
 
-article {
+.rank {
   display: block;
 }
 
-.mainwrap .articleMain h2 .expHeadline{
-  border-bottom-color: #ffbf00;
+.contry {
+  margin-bottom: 80px;
+  width: 100%;
 }
 
-.exref{
-  padding: 10px 0 40px;
-}
- 
-.expItem {
-  clear: both;
-}
-
-.expImg {
-  padding: 0 0 30px;
+.contry h1{
+  font-size: 20px;
+  border-bottom: 3px solid #ffbf00;
+  text-align: left;
+  margin: 30px 30px;
 }
 
-.expItem{
-  clear: both;
-}
-
-.user{
-  margin-bottom: 12px;
-}
-
-.expImg .instagram .user .userImg{
-  display: inline-block;
-  margin-right: 12px;
-}
-
-.imageArea{
-  
-}
-
-.expImg .instagram .image {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.expRefInner {
-  border-top: #f3f3f3;
-  border-bottom: #f3f3f3 solid 2px;
-  padding: 25px 20px;
+.instawrap {
+  width: 70%;
   position: relative;
 }
 
-.expRefInner .refItem{
-  font-size: 18px;
-  line-height: 1.4;
-  color: #555;
-  font-weight: 700;  
+.contryImage {
+  width: 450px;
+  display: block;
 }
 
-.expText {
+.contryImage img {
+  height: 350px;
+}
+
+.user {
+  width: 100%;
+  margin-top: 40px;
+  position: relative;
+}
+
+.user img {
+  display: inline-block;
+  margin-right: 12px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 50px;
+  
+}
+
+.user h2 {
+  font-size: 15px;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: Montserrat,sans-serif;
+}
+
+.contryImage img {
+  width: 100%;
+  height: 300px;
+  margin-top: 100px;
+  margin-bottom: 5px;
+}
+
+.instawrap a {
   font-size: 16px;
   line-height: 1.6;
   padding: 0 0 30px;
   letter-spacing: 0;
 }
 
-ul {
-  list-style: none;
+.areaside {
+  width: 30%;
+  height: 500px;
+  display: inline-block; 
 }
 
-.content ul li {
-  height: 38px;
-  line-height: 40px;
-  font-size: 13px;
-  font-weight: 700;
-  margin-right: 13px;
-  text-align: center;
-  
+.areaside h2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000000;
 }
 
-.area ul li {
-  font-size: 13px;
-    width: 150px;
-    height: 80px;
-    line-height: 80px;
-    overflow: hidden;
-    position: relative;
-    padding-left: 62px;
-    float: left;
+.areaside ul li {
+  width: 50%;
+  padding-top: 25px;
+  border-bottom: 1px solid rgba(200,200,200);
+  height: 100px;
+  float: left;
+}
+
+.areaside img {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-top: 20px;
+  float: left;
+}
+
+.areaside p {
+  height: 60px;
+  line-height: 4em;
+  font-size: 12.5px;
+}
+
+.tag {
+  width: 30%;
+  height: 500px;
+  float: right;
+}
+
+.tag h2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000000;
+}
+
+.tag ul li {
+  font-size: 12.5px;
+  height: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  float: left;
 }

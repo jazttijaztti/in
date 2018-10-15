@@ -12,7 +12,7 @@ $(function(){
     $(this).text("aa");
   });
   
-  $(".text2").on.("click",function(){
+  $(".test2").on("click",function(){
     $(this).text("textと関数と$(thi)を覚えましょう");
   });
   
@@ -24,8 +24,12 @@ $(function(){
   
   $(".text4").on("click", function(){
     $(this).text("変わったよ").animate(marginLeft: "300px"},3000);
+    $
   });
-
+  
+  $(".test4").on("click", function(){
+    $("test1").attr("id", "watanabe");
+  });
 
 });
 
@@ -36,9 +40,6 @@ $(function(){
 
 
 <style>
-body{
-display:none;
-}
 h2 {
 background-color:rgba(0,0,0,0.7);
 display:none;
