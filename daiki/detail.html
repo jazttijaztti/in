@@ -10,6 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
  
   <script>
+   
     $(function(){
       $('.header img').on('click', function(){
         $('.menu ul li').toggle(1000);
@@ -20,7 +21,17 @@
       $('img').on('mouseout', function(){
         $('img').css('opacity', '1');
       });
-     }); 
+      $('.areaside ul li').on('click', function(){
+        $('.areaside ul li p').slideToggle(500, function(){
+          $('.areaside ul li p').text("let's go!");
+          $('.areaside ul li').css('background-color', '#f5f5f5');
+        });
+      });
+      $('.contentToptitle').on('click', function(){
+        $('.contentToptitle h2').text('１位はモロッコなんです。').animate({marginRight: "300px"},1000);
+      });
+     });
+ 
   </script>
 
 </head>

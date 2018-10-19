@@ -51,7 +51,7 @@ ul {
   position: absolute;
   background: #F5F5F5;
   right: 0;
-  top: 48px;
+  top: 0px;
   z-index: 1000;
 }
 
@@ -186,7 +186,7 @@ ul {
   height: 50px;
   width: 50px;
   position: absolute;
-  left: 50px;
+  left: 30px;
   
 }
 
@@ -194,7 +194,10 @@ ul {
   font-size: 15px;
   font-weight: 700;
   display: inline-block;
-  margin-bottom: 20px;
+  position: absolute;
+  left: 100px;
+  top: 15px;
+  
   font-family: Montserrat,sans-serif;
 }
 
@@ -215,7 +218,8 @@ ul {
 .areaside {
   width: 100%;
   height: 500px;
-  display: inline-block; 
+  display: inline-block;
+  position: relative; 
 }
 
 .areaside h2 {
@@ -240,7 +244,7 @@ ul {
   float: left;
 }
 
-.areaside p {
+.areaside ul li p {
   height: 60px;
   line-height: 4em;
   font-size: 12.5px;
@@ -283,9 +287,9 @@ ul {
 }
 
 .pickuparticle{
-  display: block;
   padding: 18px 0 18px 83px;
   border-bottom: 1px solid #eee;
+  height: 100px;
   box-sizing: border-box;
   position: relative;
 }
@@ -311,4 +315,8 @@ ul {
   float: right;
 }
 
+@media(max-width: 1000px){
+  .sidewrap{
+    display: none;
+  }
 
