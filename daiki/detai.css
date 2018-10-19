@@ -102,6 +102,9 @@ ul {
   line-height: 1.3;
   margin-bottom: 5px;
   display: inline;
+  display: inline-block;
+  text-align: left;
+  
 }
 
 .subwrapper{
@@ -131,6 +134,8 @@ ul {
   color: #555;
   line-height: 1.7;
   width: 600px;
+  display: inline-block;
+  text-align: left;
 }
 
 .rank {
@@ -152,6 +157,12 @@ ul {
 .instawrap {
   width: 70%;
   position: relative;
+}
+
+.instawrap a{
+  display: inline-block;
+  text-align: left;
+  margin-left: 25px;
 }
 
 .contryImage {
@@ -202,7 +213,7 @@ ul {
 }
 
 .areaside {
-  width: 30%;
+  width: 100%;
   height: 500px;
   display: inline-block; 
 }
@@ -236,8 +247,7 @@ ul {
 }
 
 .tag {
-  width: 30%;
-  height: 500px;
+  width: 100%;
   float: right;
 }
 
@@ -255,3 +265,50 @@ ul {
   margin-right: 15px;
   float: left;
 }
+
+.pickupwrap{
+  float: right;
+  width: 100%;
+}
+
+.pickupwrap h2{
+  font-family: Montserrat, sans-selif ;
+  font-size: 16px;
+  color: #222;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 35px 0 9px;
+  border-bottom: 1px solid #444;
+  clear: both; 
+}
+
+.pickuparticle{
+  display: block;
+  padding: 18px 0 18px 83px;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.pickuptitle {
+  font-size: 14px;
+  line-height: 14px;
+  padding: 3px 0;
+}
+
+.pickuparticle img {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  background-color: #f7f7f7;
+}
+
+.sidewrap {
+  bottom: 0px;
+  width: 30%;
+  float: right;
+}
+
+
