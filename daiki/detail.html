@@ -31,10 +31,9 @@
         $('.contentToptitle h2').text('もったいぶらずに教えると、1位はモロッコなんです。').animate({marginRight: "300px"},1000);
       });
       $(document).on('click', '.header h1', function(){
-         $('h1, h2, h3').attr('id', 'headline');
-      });
-      $('#headline').on('click', function(){
-        
+         $('h1, h2, h3').attr('id', 'headline').on('click', function(){
+           $(this).css('font-size', '50px')
+         });
       }); 
      });
  
