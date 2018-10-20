@@ -10,6 +10,10 @@ body {
   font-family: "Hiragino kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
 }
 
+div {
+  display: block;
+}
+
 .wrapper{
   width: 100%;
   text-align: center;
@@ -292,6 +296,8 @@ ul {
   height: 100px;
   box-sizing: border-box;
   position: relative;
+  text-align: left;
+  display: inline-block;
 }
 
 .pickuptitle {
