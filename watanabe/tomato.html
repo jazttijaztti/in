@@ -16,7 +16,20 @@
 		$('.header img').on('click',function(){
 					$('.header ul li').toggle(1000);
 				});
-		 });
+		$('.top p').on('click', function(){
+                         $('.top p').text('さあ、どんなコンテンツがあるのでしょうか？！').animate({marginLeft: "200px"},500);
+                               });
+ 
+		 $(document).on('click', '.top h1 ', function(){
+         $('h1, h2').attr('id', 'japan').on('click', function(){
+           console.log('id=""japanを追加');
+           $(this).css('font-size', '50px')
+           console.log('日本が大きくなる');
+        							 });
+								
+								  });
+
+		  });
 	</script>
 
 	
