@@ -86,11 +86,13 @@ ul {
 }
 
 .mainwrapper{
-  width: 90%;
+  width: 1030px;
   position: relative;
   padding: 0 25px;
   margin: 0 auto;
   clear: both;
+  height: 8500px;
+  
 }
 
 .contentToptitle{
@@ -98,6 +100,7 @@ ul {
   position: relative;
   padding-right: 230px;
   padding: 35px 0 15px;
+  margin-bottom: 30px;
 }
 
 .contentToptitle h2{
@@ -108,7 +111,7 @@ ul {
   display: inline;
   display: inline-block;
   text-align: left;
-  
+  margin-right: 200px;
 }
 
 .subwrapper{
@@ -120,6 +123,20 @@ ul {
 .maincontent{
   float: left;
   width: 70%;
+}
+
+
+
+.contentstatus {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 200px;
+  float: left;
+}
+
+.contentstatus img {
+  margin-left: 10px;
 }
 
 .contentTop a{
@@ -140,6 +157,7 @@ ul {
   width: 600px;
   display: inline-block;
   text-align: left;
+  
 }
 
 .rank {
