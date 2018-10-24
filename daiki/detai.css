@@ -381,7 +381,7 @@ ul {
   width: 100%;
 }
 
-.underpickuptitle h3{
+.underpickuptitle a{
   position: absolute;
   top: 45px;
   left: 190px;
@@ -398,7 +398,7 @@ ul {
   left: 0px;
 }
 
-.underpickuparticle a {
+.underpickuparticle h4 {
   font-size: 12px;
   color: #AAA;
   position: absolute;
@@ -409,11 +409,20 @@ ul {
   width: 510px;
 }
 
+.sidewrap a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.underwrap a{ 
+  text-decoration: none;
+  color: #000000;
+}
+
 .fixed{
   position: fixed;
   right: 0;
   z-index: -1;
-  
 }
 
 @media(max-width: 1000px){
