@@ -37,6 +37,20 @@
            console.log('正しく文字サイズが適用されてるか');
          });
       });
+   
+      $(window).scroll(function(){
+ 
+        var scrlTop = $(this).scrollTop();
+        console.log(scrlTop);
+
+        if (scrlTop > 2000) {
+ 
+          $('.sidewrap').addClass('fixed');
+        }else{
+          $('.sidewrap').removeClass('fixed');
+        }
+        
+      });
      });
  
   </script>
