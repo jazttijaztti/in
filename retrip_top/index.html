@@ -59,16 +59,15 @@
 
  					 var scrlTop = $(this).scrollTop();
 
- 					if (scrlTop > 1000) {
+ 					if (scrlTop > 600) {
          				$('.pickups').fadeIn(1000);
      				}
 
-
-     				var h3scrl = $('.pickups h3').offset().top;
+     				var h3scrl = $('.pickups').offset().top;
 
 
  					if (h3scrl < scrlTop ) {
-         				$('.pickups h3').fadeIn(1000);
+         				$('.pickups').fadeIn(1000);
          			}
 
          		});
