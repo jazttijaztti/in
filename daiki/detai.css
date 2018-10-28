@@ -10,6 +10,12 @@ body {
   font-family: "Hiragino kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+}
+
 div {
   display: block;
 }
@@ -375,7 +381,7 @@ ul {
   width: 100%;
 }
 
-.underpickuptitle h3{
+.underpickuptitle a{
   position: absolute;
   top: 45px;
   left: 190px;
@@ -392,7 +398,7 @@ ul {
   left: 0px;
 }
 
-.underpickuparticle a {
+.underpickuparticle h4 {
   font-size: 12px;
   color: #AAA;
   position: absolute;
@@ -401,6 +407,22 @@ ul {
   text-align: left;
   display: inline-block;
   width: 510px;
+}
+
+.sidewrap a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.underwrap a{ 
+  text-decoration: none;
+  color: #000000;
+}
+
+.fixed{
+  position: fixed;
+  right: 0;
+  z-index: -1;
 }
 
 @media(max-width: 1000px){
