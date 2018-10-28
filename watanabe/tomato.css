@@ -1,4 +1,4 @@
-.wrapper
+.wrapper{
 	width:100%;
 	text-align:center;
 	box-sizing:border-box;
@@ -28,7 +28,7 @@
 	margin-top:15px;
 	margin-bottom:30px;
 	text-align:center;
-	width:100%;       
+	width:100%;
 }
 
 .subheader{
@@ -174,7 +174,7 @@ line-height: 1.4;
 }
 
 .feature {
-       
+
         width:30%;
         float:right;
         margin-top:50px;
@@ -187,7 +187,7 @@ line-height: 1.4;
         float:left;
 	width:100%;
 	margin-bottom:10px;
-	
+
 
 }
 .feature img{
@@ -216,7 +216,7 @@ line-height: 1.4;
 .pickups img{
 	height:130px;
 	width:30%;
-	
+
 
 }
 .pickups h3{
@@ -273,7 +273,7 @@ line-height: 1.4;
 	.tags{
 		display:none;
 		width:0%;
-	
+
 	}
 	.feature{
                 display:none;
