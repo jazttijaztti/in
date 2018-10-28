@@ -1,7 +1,7 @@
-#links > div:hover {
-   opacity:0.6;
-}
+
+
 .wrapper{
+	display:none;
 	width:100%;
 	text-align:center;
 	box-sizing:border-box;
@@ -65,28 +65,28 @@
 	margin-left:10px;
 }
 .top-image1{
-	background-image:url(beach.jpeg);
+	background-image:url(../img/beach.jpeg);
 	background-size:cover;
 	background-position:center center;
 	
 }
 
 .top-image2{
-	background-image:url(christmas_dating.jpeg);
+	background-image:url(../img/christmas_dating.jpeg);
 	background-size:cover;
 	background-position:center center;
 
 }
 
 .top-image3{
-	background-image:url(wine.jpeg);
+	background-image:url(../img/wine.jpeg);
 	background-size:cover;
 	background-position:center center;
 	
 }
 .wrapper2{
 	width:90%;
-	height:1000px;
+	height:2500px;
 	margin-right:5%;
 	margin-left:5%;
 	clear:both;
@@ -116,6 +116,7 @@
 	border-bottom:1px solid rgba(200,200,200);
 	height:160px;
 	width:100%;
+
 }
 .pickups img{
 	height:130px;
@@ -152,6 +153,10 @@
 	height:100px;
 	float:left;
 }
+.area ul li a {
+	text-decoration:none;
+	color:#000000;
+}
 .area img{
 	height:50px;
 	width:50px;
@@ -184,9 +189,52 @@
 	margin-bottom:15px;
 	margin-right:15px;
 	float:left;
+}
+.tags ul li a {
+	text-decoration:none;
+	color:#000000;
+}
+
+
+.footer {
+	width:80%;
+	margin:10%;
+	height:300px;
 
 }
 
+.footer img{
+	height:12px;
+	width:12px;
+	margin-right:5px;
+
+}
+.footer h3{
+	clear:both;
+	text-align:left;
+
+}
+.footer ul li{
+	font-size:12.5px;
+	height:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:20px;
+	float:left;
+
+}
+
+.leftblock{
+	float:left;
+	height:300px;
+	width:60%;
+}
+
+.rightblock{
+	float:right;
+	height:300px;
+	width:35%;
+}
 
 @media(max-width: 900px){
 	.top-image{
@@ -207,6 +255,7 @@
 		width:0%;
 	
 	}
+
 
 }
 
