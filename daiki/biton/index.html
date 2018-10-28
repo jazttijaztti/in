@@ -10,6 +10,21 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   
   <script>
+    $(function(){
+      $(window).scroll(function(){
+        $('.fadeIn').each(function(){
+　　　    var scrlTop = $(window).scrollTop(); 
+          console.log(scrlTop);
+          var elemPos = $(this).offset().top;
+          var windowheight = $(window).height();
+
+          if (scrlTop > elemPos - windowheight + 50){
+            $(this).addClass('scrollin');
+          }
+        });
+      });
+    
+    });
   </script>
   
 </head>
@@ -17,42 +32,45 @@
   <div class="wrapper">
     <div class="header">
       <div class="logo">
+        <img src="bitonLogo.jpg">
       </div>
       <div class="menu">
         <ul>
           <li>ホーム</li>
-          <li>何かメニュー</li>
-          <li>何かメニュー</li>
-          <li>何かメニュー</li>
+          <li>コンテンツ</li>
+          <li>コンテンツ</li>
+          <li>コンテンツ</li>
         </ul>
       </div>
     </div>
    
     <div class="main">
       <div class="eye_catch">
-        <img src="">
-        <h2>何か文言を入れる</h2>
-        <p>何か文言を入れる。何か文言を入れる。何か文言を入れる。何か文言を入れる。</p>
+        <h2>写真に被せて何か文言のキャッチコピーを入れる</h2>
+        <p class="eye_text">
+キャッチコピーに合わせて文言を入れる。キャッチコピーに合わせて何か文言を入れる。キャッチコピーに合わせて何か文言を入れる。キャッチコピーに合わせて何か文言を入れる。
+        </p>
       </div>
       
       <div class="contentWrap">
-        <div class="contentFirst">
-          <h2>何か美豚のアピールのタイトル</h2>
-          <p>アピールアピールアピールアピールアピール</p>
+        <div class="contentFirst fadeIn">
+          <h1>what's "美豚"？</h1>
+          <h2>美豚ってどんな職場?</h2>
+          <p>美豚にはこんな人が集まってきます。抽象度やや高めのアピールを入れます。働くとこんな感覚です。こんなことを学べるかもしれません。こんな人と出会えるかもしれません。つけ麺美味しいです。油そば美味しいです。友達に自慢できます。</p>
         </div>
         
         <div class="contentPeople">
-          <div class="people1">
+          <div class="member">
             <h2>誰か美豚の卒業生でも現役生でも誰か載せたい。意識高い系で刺すなら、達哉さんとか大輔さんとかのサクセスストーリーとか。可愛い系で刺すならななとかあみとかしおりとかももとかみやとか。パリピ系で刺すなら大輔さんのふざけたやつとか</h2>
             <img src="">
           </div>
           
-          <div class="people2">
+          <div class="member">
             <h2>キャラ刺しのキャッチコピーとかいいかもしれない。みんなのお母さん”大橋みや”とか。</h2>
             <img src="">
           </div>
   
-          <div class="people3">
+          <div class="member">
             <h2>美豚で働くこと4年間。なんてまだ誰のこと言ってんのか分かりませが、、中身はまだ適当ですが、誰を載せたいかとか、どんな雰囲気で乗せたいかとかヒアリングも一応した方がいいっちゃいいので現状こんな感じです。乗せたい人の写真が欲しい。。</h2>
             <img scr="">
           </div> 
