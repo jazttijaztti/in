@@ -103,7 +103,6 @@
 
 .matome{
 	width:60%;
-	height:800px;
 	float:left;
 }
 
@@ -117,6 +116,10 @@
 	height:160px;
 	width:100%;
 
+}
+.pickups a {
+	text-decoration:none;
+	color:#000000;
 }
 .pickups img{
 	height:130px;
@@ -142,8 +145,8 @@
 }
 .area {
 	width:30%;
-	height:500px;
 	float:right;
+	margin-bottom:50px;
 }
 
 .area ul li{
@@ -173,7 +176,6 @@
 
 .tags{
 	width:30%;
-	height:500px;
 	float:right;
 }
 
