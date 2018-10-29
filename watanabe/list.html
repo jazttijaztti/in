@@ -1,97 +1,329 @@
-<!Doctype html>
-<html lang="ja">
-
+<!DOCTYPE>
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="list.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="list.css">
+	<link rel="stylesheet" href="reset.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script>
+		$(
+			function(){
+				$('.top img').on('mouseover',function(){
+					$('.top img').css('opacity','0.3');
+				});
+		$('.header img').on('click',function(){
+					$('.header ul li').toggle(1000);
+				});
+		$('.top p').on('click', function(){
+                         $('.top p').text('さあ、どんなコンテンツがあるのでしょうか？！').animate({marginLeft: "200px"},500);
+                               });
 
-</script>
+		 $(document).on('click', '.top h1 ', function(){
+         $('h1, h2').attr('id', 'japan').on('click', function(){
+           console.log('id=""h1とh2');
+           $(this).css('font-size', '50px')
+           console.log('h1とh2が大きくなるよ');
+        							 });
+
+								  });
+
+		  });
+	</script>
+
+
 </head>
 <body>
+	<div class="wrapper">
 
-<div class="header1">
-
-<div class="kensaku">
-<p>検索窓いる</p>
-</div>
-
-<div class="logo">
-<h1>RETRIP</h1>
-</div>
-
-<div class="login">
-<h2>●</h2>
-</div>
-
-</div>
-
-<div class="header2">
-<ul>
-<li>トップページ</li>
-<li>エリア一覧</li>
-<li>アジア</li>
-<li>日本</li>
-</ul>
-</div>
-
-<div class="scroll-menu">
-<p>ログイン</p>
-<p＞会員登録</p>
-</div>
+		<div class="header">
+			<h1>RETRIP</h1>
+			<img src="2.jpg">
+			<div class="menu">
+					<ul>
+						<li>ログイン</li>
+						<li>会員登録</li>
+					</ul>
+				</div>
+		</div>
+		  <div class="subheader">
+     		 <ul>
+　　　 		 <li>トップページ</li>
+　　　 		 <li>エリア一覧　</li>
+　　　 		 <li>アジア　</li>
+　　　 		 <li>日本</li>
+     		 </ul>
+   		 </div>
 
 
-<div class="main">	
 
-	<div class="main-contents">
-	<h2>メインコンテンツが入る</h2>
-		<div class="area">
+
+	<div class="top">
+		<img src="1.jpg">
 		<h1>日本</h1>
-		<p>RETRIPには「日本」エリアに関する旅行・観光・おでかけの〜</p>
+		<p>RETRIPには「日本」エリアに関する旅行・観光・おでかけのまとめ記事が42086件されています。<br> おすすめの観光スポットや人気ランキングなど「日本」エリアに関する旅行・観光・おでかけのまとめ記事はRETRIP[リトリップ]で。</p></div>
+
+
+
+
+
+
+
+
+
+		<div class="wrapper2">
+			<div class="matome">
+				<h2>「日本」に関するまとめ記事一覧( 42290件中 1 - 30件を表示 ) </h2>
+
+				<div class="pickups">
+					<img src="1.jpg">
+					<h3 class="title">明日の朝は、食パンを。神奈川の一度は行きたい「食パン専門店」7選</h3>
+					<p>パンのスタンダードである食パンは、いまや専門店があるほど極められているんです。神奈川</p>
+					<p>2018年10月12日</p>
+
+				</div>
+				<div class="pickups">
+					<img src="1.jpg">
+					<h3 class="title">今年のクリスマスはここで。経験者が語るフランス「ストラスブール」の魅力</h3>
+					<p>ヨーロッパには小さいながらも魅力につまった町があちこちにあって目移りしちゃいますよね</p>
+					<p>2018年10月11日</p>
+
+				</div>
+				<div class="pickups">
+					<img src="1.jpg">
+					<h3 class="title">食欲の秋にぴったり！そごう横浜店にて「秋の大九州　味と技めぐり」開催</h3>
+					<p>2018年10月17日（水）～10月23日（火）の期間、そごう横浜店8階催会場にて「秋の大</p>
+					<p>2018年10月13日</p>
+
+				</div>
+				<div class="pickups">
+					<img src="1.jpg">
+					<h3 class="title">日本全国の人気のアイスが集結！アイスクリーム万博「あいぱく」神戸で開催中</h3>
+					<p>”日本アイスマニア協会”がプロデュースする、国内最大規模のアイスクリームイベント「あ</p>
+					<p>2018年10月13日</p>
+
+				</div>
+				<div class="pickups">
+					<img src="1.jpg">
+					<h3 class="title">金沢の美味しいを詰め込みました！金沢トレンドグルメまとめ【2018年版】</h3>
+					<p>金沢は北陸新幹線開通以来、東京都内からのアクセスの良さから大人気観光地になりました。</p>
+					<p>2018年10月10日</p>
+
+				</div>
+				<div class="pickups">
+					<img src="1.jpg">
+					<h3 class="title">ランチも譲らない、それが私。秋のおでかけ地で行きたいランチガイド【場所別】</h3>
+					<p>秋のおでかけで意外と困るのが、ランチだったりしませんか？せっかくのおでかけなのに</p>
+					<p>2018年10月11日</p>
+
+				</div>
+				<div class="pickups">
+					<img src="1.jpg">
+					<h3 class="title">食欲の秋は女子会でとことん満喫。東京都内のおすすめ食べ放題店8選</h3>
+					<p>「美味しいもの、好きなものを好きなだけたくさん食べて食欲の秋を満喫したい」と思っ</p>
+					<p>2018年10月11日</p>
+
+				</div>
+				<div class="pickups">
+					<img src="1.jpg">
+					<h3 class="title">おいしいコーヒーを心ゆくまで。こだわりの一杯に出会える奥沢のカフェ7選</h3>
+					<p>東急目黒線沿線にある「奥沢」。自由が丘駅からも歩いていけるこのエリアは、コーヒー</p>
+					<p>2018年10月11日</p>
+
+				</div>
+				<div class="pickups">
+					<img src="1.jpg">
+					<h3 class="title">川越に新登場！『川越プリン』のモンブランソフトは川越の新定番おしゃれスイーツだ</h3>
+					<p>食べ歩きスイーツ激戦区の「川越」。そんな川越に2018年夏新たに登場した『川越プリン</p>
+					<p>2018年10月12日</p>
+
+				</div>
+				<div class="pickups">
+					<img src="1.jpg">
+					<h3 class="title">楓と桜の紅葉をライトアップ！青森「弘前城 菊と紅葉まつり」開催</h3>
+					<p>『弘前城 菊と紅葉まつり』は、四季を彩る祭りのひとつで、1962年(昭和37年)から秋の</p>
+					<p>2018年10月13日</p>
+
+				</div>
+				<div class="pickups">
+					<img src="1.jpg">
+					<h3 class="title">秋の絶景に急げ！10月第3週～に行ける「まだ間に合う関東地方のコスモス畑」7選</h3>
+					<p>いつのまにか暑い季節から涼しい季節になりましたね。今年も充実した夏を過ごせました</p>
+					<p>2018年10月12日</p>
+
+				</div>
+				<div class="pickups">
+					<img src="1.jpg">
+					<h3 class="title">自分だけのオリジナルを。東京都内の“自分オリジナル雑貨”を作れるお店7選</h3>
+					<p>自分オリジナルの雑貨ってとても特別感があって、持っているだけでワクワクした気持ち</p>
+					<p>2018年10月12日</p>
+
+				</div>
+				<div class="pickups">
+					<img src="1.jpg">
+					<h3 class="title">秋だから、食べたいもの。東京都内の季節感じる“秋のほっこりグルメ”7選</h3>
+					<p>いつもよりも、丁寧に、一回一回の食事を大切にしたくなる時期。それが、秋。毎日の生</p>
+					<p>2018年10月12日</p>
+				</div>
+
+
+				</div>
+
+
+			<div class="area">
+				<h2>エリア一覧</h2>
+				<ul>
+					<li>
+						<img src="1.jpg">
+						<p>日本</p>
+					</li>
+					<li>
+						<img src="1.jpg">
+						<p>ヨーロッパ</p>
+					</li>
+					<li>
+						<img src="1.jpg">
+						<p>中南米</p>
+					</li>
+					<li>
+						<img src="1.jpg">
+						<p>北米</p>
+					</li>
+					<li>
+						<img src="1.jpg">
+						<p>アフリカ</p>
+					</li>
+					<li>
+						<img src="1.jpg">
+						<p>中東</p>
+					</li>
+					<li>
+						<img src="1.jpg">
+						<p>アジア</p>
+					</li>
+					<li>
+						<img src="1.jpg">
+						<p>オセアニア</p>
+					</li>
+				</ul>
+			</div>
+			<div class="tags">
+				<h2>オススメタグ一覧</h2>
+				<ul>
+					<li>
+						<p>#ホテル</p>
+					</li>
+					<li>
+                                                <p>#東京のグルメ</p>
+                                        </li>
+					<li>
+                                                <p>#カフェ</p>
+                                        </li>
+					<li>
+                                                <p>#ラーメン</p>
+                                        </li>
+					<li>
+                                                <p>#スイーツ</p>
+                                        </li>
+					<li>
+                                                <p>#グルメ</p>
+                                        </li>
+					<li>
+                                                <p>#絶景</p>
+                                        </li>
+					<li>
+                                                <p>#沖縄のホテル</p>
+                                        </li>
+					<li>
+                                                <p>#国内</p>
+                                        </li>
+					<li>
+                                                <p>#居酒屋</p>
+                                        </li>
+					<li>
+                                                <p>#大阪のグルメ</p>
+                                        </li>
+					<li>
+                                                <p>#旅館</p>
+                                        </li>
+					<li>
+                                                <p>#パンケーキ</p>
+                                        </li>
+					<li>
+                                                <p>#イベント</p>
+                                        </li>
+					<li>
+                                                <p>#デートスポット</p>
+                                        </li>
+					<li>
+                                                <p>#温泉</p>
+                                        </li>
+					<li>
+                                                <p>#お土産</p>
+                                        </li>
+					<li>
+                                                <p>#ディズニー</p>
+                                        </li>
+					<li>
+                                                <p>#東京の観光スポット</p>
+                                        </li>
+				</ul>
+			</div>
+			<div class="feature">
+				<h2>日本に関する特集</h2>
+				<ul>
+					<li>
+					 <img src="1.jpg">
+                                         <p>全国のお祭り特集</p>
+					</li>
+					<li>
+					 <img src="1.jpg">
+                                         <p>全国のラーメン特集</p>
+					</li>
+				</ul>
+			</div>
+
+
+
+
+
+
 		</div>
-		<div class="article">
-		<p>いくつもコンテンツが来る</p>	
-		</div>
+
+
+
 	</div>
 
-	<div class="contents-side1">
-	<h2>エリア一覧</h2>
-	</div>
+  <div class="subfooter">
+                 <ul>
+　　　           <li>トップページ </li>
+　　　           <li>エリア一覧　</li>
+　　　           <li>アジア　</li>
+　　　           <li>日本</li>
+                 </ul>
+                 </div>
 
-	<div class="contents-side2">
-	<h2>人気タグ</h2>
-	</div>
 
-	<div class="contents-side3">
-	<h2>特集</h2>
-	</div>
 
-	<div class="contents-side4">
-        <h2>人気キュレーター</h2>
-        </div>
 
-	 <div class="contents-side5">
-        <h2>ランキング</h2>
-        </div>
-</div>
 
-<div class="footer1">
-<ul>
-<li>1</li>
-<li>2</li>
-<li>3</li>
-<li>4</li>
-</ul>
-<p>階層の下に画像入れる</p>
-</div>
 
-<div id="footer2">
-<p>ここにフッター</p>
-</div>
+
+
+
 
 </body>
-</html>
 
+
+
+
+
+
+
+
+
+
+
+</html>
 
