@@ -1,0 +1,390 @@
+<!Doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>RETRIP-詳細ページ-</title>
+  <link rel="stylesheet" href="css/detail/detail.css">
+  <link rel="stylesheet" href="tokyoramen/css/detail/reset.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+ 
+  <script>
+   
+    $(function(){
+      $('.header img').on('click', function(){
+        $('.menu ul li').toggle(1000);
+      });
+      $('img').on('mouseover', function(){
+        $('img').css('opacity', '0.7');
+      });
+      $('img').on('mouseout', function(){
+        $('img').css('opacity', '1');
+      });
+      $('.areaside ul li').on('click', function(){
+        $('.areaside ul li p').slideToggle(500, function(){
+          $('.areaside ul li p').text("let's go!");
+          $('.areaside ul li').css('background-color', '#f5f5f5');
+        });
+      });
+      $('.contentToptitle').on('click', function(){
+        $('.contentToptitle h2').text('もったいぶらずに教えると、1位はモロッコなんです。').animate({marginRight: "300px"},1000);
+      });
+      $(document).on('click', '.header h1', function(){
+         $('h1, h2, h3').attr('id', 'headline').on('click', function(){
+           console.log('id=""headlineが追加されました。');
+           $(this).css('font-size', '50px')
+           console.log('正しく文字サイズが適用されてるか');
+         });
+      });
+   
+      $(window).scroll(function(){
+ 
+        var scrlTop = $(this).scrollTop();
+        console.log(scrlTop);
+        if (scrlTop > 1800) {
+ 
+          $('.sidewrap').addClass('fixed');
+        }else{
+          $('.sidewrap').removeClass('fixed');
+        }
+        
+        if (scrlTop > 6800) {
+          $('.sidewrap').css('width', '25%');
+        }else{
+          $('.sidewrap').css('width', '30%');
+        } 
+      });
+     });
+ 
+  </script>
+
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <h1>RETRIP</h1>
+      <img src="images/detail/r-menu.jpg">
+    
+
+      <div class="menu">
+        <ul>
+          <li>ログイン</li>
+          <li>会員登録</li>
+        </ul>
+      </div>
+    </div>
+    <div class="subHeader">
+      <ul>
+　　　  <li>トップページ ></li>
+　　　  <li>エリア一覧　></li>
+　　　  <li>アフリカ　></li>
+　　　  <li>モロッコ</li> 
+      </ul>
+    </div>
+
+    <div class="mainwrapper">
+      <div class="contentToptitle">
+        <h2>
+          <a>海外での年越し先ランキング！２位はNY,１位は意外<br>なあの国だった！</a>
+        </h2>
+        <div class="contentstatus">
+          <div class="suchi">
+            <img src="images/detail/suchi.jpg">
+          </div>
+        </div>
+       </div>
+
+    <div class="subwrapper">
+      <div class="maincontent">
+        <div class="contentTop">
+          <a>
+            <img src="https://static.retrip.jp/article/2849/images/28491034dd40-2a4c-4924-8c4f-01060602f031_m.jpg">
+          </a>
+        </div>
+        <p class="contentToptext">
+今回ソーシャル旅行サービス「tripppiece」が発表した、年末年始年越し旅行先ランキングをご紹介します。海外で年越しするとなると、結構思い浮かぶのはハワイだったりニューヨークだったりするんですが、今回のランキングでの１位は意外にもあの国でした。さあどこでしょうか。一緒に見ていきましょう。
+        </p>
+      
+        <div class="rank">
+          <div class="contry">
+            <a>
+              <h1>７位：香港</h1>
+            </a>
+　　　　　　　<div class="instawrap">
+                <div class="user">
+                  <img src="images/detail/insta.jpg">
+                  <h2>amethk</h2>
+                </div>
+    
+                <div class="contryImage">
+                  <img src="https://www.instagram.com/p/Vl_esQRzs3/media/?size=l">
+                </div>
+                  <a>2013年→2014年のことです。夜景で有名なビクトリアハーバーと花火の競演です。豪華すぎてきっといい思い出になることでしょう。
+                  </a>
+                
+              </div>
+            </div>
+          </div>
+          <div class="contry">
+            <a>
+              <h1>６位：カンボジア</h1>
+            </a>
+              <div class="instawrap">
+                <div class="user">
+                  <img src="images/detail/insta.jpg">
+                  <h2>mmahiro</h2>
+                </div>
+                <div class="contryImage">
+                  <img src="https://www.instagram.com/p/BGJ5E2dPfXI/media/?size=l">
+                </div>
+                <div class="user">
+                  <img src="images/detail/insta.jpg">
+                  <h2>yuh_yb14</h2>
+                </div>
+                <div class="contryImage">
+                  <img src="https://www.instagram.com/p/BGJlzx6BCew/media/?size=l">
+                  <a>派手さこそありませんが、カンボジア特有のゆったりとした時間の流れを感じるのもいいですね。</a>
+                </div>
+              </div>
+          </div>
+          <div class="contry">
+            <a><h1>５位：ロンドン</h1></a>
+            <div class="instawrap">
+              <div class="user">
+                <img src="images/detail/insta.jpg">
+                <h2>tmnikonian</h2>
+              </div>
+              <div class="contryImage">
+                <img src="https://www.instagram.com/p/BGJgjBWk-4Y/media/?size=l">
+              </div>
+              <div class="user">
+                <img src="images/detail/insta.jpg">
+                <h2>azu108</h2>
+              </div>
+              <div class="contryImage">
+                <img src="https://www.instagram.com/p/xT9dSBHFsB/media/?size=l">
+                <a>ビッグベンや、ロンドンアイなどの象徴するスポットがライトアップされたり花火が打ち上げられます。</a>
+              </div>
+            </div>
+          </div>
+          <div class="contry">
+　　　　　  <a><h1>４位：モンゴル</h1></a>
+            <div class="instawrap">
+              <div class="user">
+                <img src="images/detail/insta.jpg">
+                <h2>74_trip</h2>
+              </div>
+              <div class="contryImage">
+                <img src="https://www.instagram.com/p/BGJsEd_heSz/media/?size=l">
+              </div>
+              <div class="user">
+                <img src="images/detail/insta.jpg">
+                <h2>hanex</h2>
+              </div>
+              <div class="contryImage">
+                <img src="https://www.instagram.com/p/BGJkICpJtlS/media/?size=l">
+              <a>冬のモンゴルは極寒です。しかし極寒だからこそ、いつもと変わった年越しをしたいという人には向いているかもしれません。しかも極寒ならではの、理科実験もできちゃうんです！シャボン玉を吹いたら凍ってしまうとか、バナナで釘を打てるのだとか、タオルを回すと凍ってしまうのかなどなど、極寒でしかできないことができます。</a>
+              </div>
+            </div>
+          </div>
+          <div class="contry">
+            <a><h1>３位：ドバイ</h1></a>
+            <div class="instawrap">
+              <div class="user">
+                <img src="images/detail/insta.jpg">
+                <h2>akira.sasaki.7</h2>
+              </div>
+              <div class="contryImage">
+                <img src="https://www.instagram.com/p/BGFphG_o7m3/media/?size=l">
+              </div>
+              <a>オイルマネーのドバイだからこそできる年越しイベントですね。こんなにも沢山の花火があるなんてとても綺麗で、ロマンチックな年越しを迎えられそうですね。</a> 
+            </div>
+          </div>
+          <div class="contry">
+            <a><h1>２位：ニューヨーク</h1></a>
+            <div class="instawrap">
+              <div class="user">
+                <img src="images/detail/insta.jpg">
+                <h2>foxandjane</h2>
+              </div>
+              <div class="contryImage">
+                <img src="https://www.instagram.com/p/4vWMLhse0T/media/?size=l">
+              </div>
+              <a>やはりニューヨークも規模が違いますね。まさにアメリカン。最高の夜になりそうです。</a>
+            </div>
+          </div>
+          <div class="contry">
+            <a><h1>１位：モロッコ</h1></a>
+            <div class="instawrap">
+              <div class="user">
+                <img src="images/detail/insta.jpg">
+                <h2>nontococo</h2>
+              </div>
+              <div class="contryImage">
+                <img src="https://www.instagram.com/p/BGDnE6tHvHJ/media/?size=l">
+              </div>
+              
+              <div class="user">
+                <img scc="images/detail/insta.jpg">
+                <h2>0024_sky</h2>
+              </div>
+              <div class="contryImage">
+                <img src="https://www.instagram.com/p/BGG79RNwLFP/media/?size=l">
+              </div>
+              <a>
+なんと人気だったのは「モロッコ」でした！サハラ砂漠で新年を迎えたいと思う人たちが多いそうです。確かに人生に一度はサハラ砂漠で新年を迎えたいですね。</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="underwrap">
+          <h2>関連する記事まとめ</h2>
+          <div class="articleunder">
+            <div class="underpickuparticle">
+              <img src="images/detail/yakei.jpg">
+              <div class="underpickuptitle">
+                <h3><a href="#">最高の女子旅行にしたい！““香港”を１２０%満喫する２泊３日プランはこれだ</a></h3>
+                <h4>日本から気軽に行ける旅行先としても人気の香港。今回は香港渡航が10回を超える筆者...<br>2017年06月24日</h4>
+              </div>
+            </div>
+            <div class="underpickuparticle">
+              <img src="images/detail/machi.jpg">
+              <div class="underpickuptitle">
+                <h3>
+                  <a href="#">初心者におすすめ！注目スポットを巡る３泊４日「香港女子旅行プラン」はこれだ</a></h3>
+                <h4>日本から直行便で約４時間で行ける香港。近年おしゃれなスポットやカフェがたくさんオー...<br>2017年5月24日</h4>
+              </div>
+            </div>
+　　　　    <div class="underpickuparticle">
+              <img src="images/detail/resort.jpg">
+              <div class="underpickuptitle">
+                <h3><a href="#">SNS映え抜群！女子旅行で行きたい香港の“フォトジェニスポット”７選</a></h3>
+                <h4>キラキラした夜景のイメージが強い魅惑の都市、香港。今回はガイドブックにはあまり...<br>2017年6月23日</h4>
+              </div>
+            </div>
+            <div class="underpickuparticle">
+              <img src="images/detail/slim.jpg">
+              <div class="underpickuptitle">
+                <h3><a href="#">坂上忍も驚愕「7日で脂肪の原因をゴッソリ？」生放送後すごい反響の簡単ダイエット</a></h3>
+                <h4>株式会社モイスト</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    
+    <div class="sidewrap">
+    <div class="areaside">
+      <h2>
+        エリア一覧
+      </h2>
+      <ul>
+        <li>
+          <img src="images/detail/japan.jpg">
+          <p><a href="#">日本</a></p>
+        </li>
+　　　　<li>
+          <img src="images/detail/hokubei.jpg">
+          <p><a href="#">北米</a></P>
+        </li>
+        
+        <li>
+          <img src="images/detail/ajia.jpg">
+          <p><a href="#">アジア</a></P>
+　　　　</li>
+        
+        <li> 
+          <img src="images/detail/yoropa.jpg">
+          <p><a href="#">ヨーロッパ</a></P>
+        </li>
+        
+        <li>    
+          <img src="images/detail/nanbei.jpg">
+          <p><a href="#">中南米</a></P>
+        </li>
+        <li>
+          <img src="images/detail/oseania.jpg">
+          <p><a href="#">オセアニア</a></P>
+        </li>
+        <li>
+          <img src="images/detail/chuutou.jpg">
+          <p><a href="#">中東</a></P>
+        </li>
+        <li>
+          <img src="images/detail/ahurika.jpg">
+          <p><a href="#">アフリカ</a></P>
+        </li>
+      </ul>
+    </div>
+    <div class="tag">
+      <h2>おすすめタグ一覧</h2>
+      <ul>
+        <li><a href="#">#グルメ</a></li>
+        <li><a href="#">#デートスポット</a></li>
+        <li><a href="#">#カフェ</a></li>
+        <li><a href="#">#東京の観光スポット</a></li>
+        <li><a href="#">#居酒屋</a></li>
+        <li><a href="#">#旅館</a></li>
+        <li><a href="#">#イベント</a></li>
+        <li><a href="#">#鎌倉</a></li>
+        <li><a href="#">#ホテル</a></li>
+        <li><a href="#">#東京のグルメ</a></li>
+        <li><a href="#">#国内</a></li>
+        <li><a href="#">#スイーツ</a></li>
+        <li><a href="#">#絶景</a></li>
+        <li><a href="#">#温泉</a></li>
+        <li><a href="#">#お土産</a></li>
+        <li><a href="#">#ラーメン</a></li>
+        <li><a href="#">#大阪のグルメ</a></li>
+        <li><a href="#">#パンケーキ</a></li>
+        <li><a href="#">#ディズニー</a></li>
+        <li><a href="#">#沖縄のホテル</a></li>
+        <li><a href="#">#東京のホテル</a></li>
+      </ul>
+    </div>
+    
+    <div class="pickupwrap">
+      <h2>ピックアップ</h2>
+      <div class="articleSide">
+        <div class="pickuparticle">
+          <img src="images/detail/pickup1.jpg">
+          <div class="pickuptitle">
+            <a href="#">【2018.10/15~21】関西地方の「今週したいこと」7選</a>
+          </div>
+        </div>
+        <div class="pickuparticle">
+　　　　  <img src="images/detail/pickup2.jpg">
+          <div class="pickuptitle">
+            <a href="#">【バトル形式】どこに行けば、お腹は満たされる？ほぼ東京で楽しめる食べ放題まとめ</a>
+          </div>
+        </div>
+        <div class="pickuparticle">
+          <img src="images/detail/pickup3.jpg">
+          <div class="pickuptitle">
+            <a href="#">スペイン観光といえばここ！まるで太陽な「アンダルシア州」観光スポット８選</a>
+          </div>
+        </div>
+        <div class="pickuparticle">
+　　　　  <img src="images/detail/pickup4.jpg">
+          <div class="pickuptitle">
+            <a href="#">沖縄でランチするならここ！北谷町のおしゃれなカフェランチ７選</a>
+          </div>
+        </div>
+        <div class="pickuparticle">
+          <img src="images/detail/pickup5.jpg">
+          <div class="pickuptitle">
+            <a href="#">まさに「考えた人すごいわ」。清瀬の高級食パンは味もこだわりもすごい</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    
+  </div>
+  </div>
+  </div>
+</body>
+</html>

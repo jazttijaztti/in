@@ -1,0 +1,431 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  font-family: "Hiragino kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+}
+
+div {
+  display: block;
+}
+
+.wrapper{
+  width: 100%;
+  text-align: center;
+}
+
+.header{
+  width: 100%;
+  height: 100px;
+  padding-top: 5px;
+  position: relative;
+}
+
+.header h1 {
+  font-size: 30px;
+  line-height: 2em;
+}
+
+.header img {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.menu{
+  z-index: 5;
+  position: absolute;
+  right: 80px;
+  top: 70px;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu ul {
+  width: 160px;
+  position: absolute;
+  background: #F5F5F5;
+  right: 0;
+  top: 0px;
+  z-index: 1000;
+}
+
+.menu ul li {
+  border-bottom: 1px solid #fff;
+  position: relative;
+  display: none;
+}
+
+.subHeader{
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  clear: both;
+  padding: 10px 10px;
+}
+
+.subHeader ul {
+  font-size: 12px;
+  color: #666;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.subHeader ul li{
+  display: inline;
+  line-height: 1.6;
+  margin-left: 5px;
+}
+
+.mainwrapper{
+  width: 1030px;
+  position: relative;
+  padding: 0 25px;
+  margin: 0 auto;
+  clear: both;
+  height: 8500px;
+  
+}
+
+.contentToptitle{
+  clear: both;
+  position: relative;
+  padding-right: 230px;
+  padding: 35px 0 15px;
+  margin-bottom: 30px;
+}
+
+.contentToptitle h2{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 5px;
+  display: inline;
+  display: inline-block;
+  text-align: left;
+  margin-right: 200px;
+}
+
+.subwrapper{
+  float: left;
+  width: 65%;
+  margin-right: 40px;
+}
+
+.maincontent{
+  float: left;
+  width: 70%;
+}
+
+
+
+.contentstatus {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 200px;
+  float: left;
+}
+
+.contentstatus img {
+  margin-left: 10px;
+}
+
+.contentTop a{
+  margin-bottom: 20px;
+}
+
+.contentTop img {
+  width: 600px;
+}
+
+.contentToptext{
+  background: #f7f7f7;
+  padding: 20px 25px;
+  margin-bottom: 35px;
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+  width: 600px;
+  display: inline-block;
+  text-align: left;
+  
+}
+
+.rank {
+  display: block;
+}
+
+.contry {
+  margin-bottom: 80px;
+  width: 100%;
+}
+
+.contry h1{
+  font-size: 20px;
+  border-bottom: 3px solid #ffbf00;
+  text-align: left;
+  margin: 30px 30px;
+}
+
+.instawrap {
+  width: 70%;
+  position: relative;
+}
+
+.instawrap a{
+  display: inline-block;
+  text-align: left;
+  margin-left: 25px;
+}
+
+.contryImage {
+  width: 450px;
+  display: block;
+}
+
+.contryImage img {
+  height: 350px;
+}
+
+.user {
+  width: 100%;
+  margin-top: 40px;
+  position: relative;
+}
+
+.user img {
+  display: inline-block;
+  margin-right: 12px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 30px;
+  
+}
+
+.user h2 {
+  font-size: 15px;
+  font-weight: 700;
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  top: 15px;
+  
+  font-family: Montserrat,sans-serif;
+}
+
+.contryImage img {
+  width: 100%;
+  height: 300px;
+  margin-top: 100px;
+  margin-bottom: 5px;
+}
+
+.instawrap a {
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 0 0 30px;
+  letter-spacing: 0;
+}
+
+.areaside {
+  width: 100%;
+  height: 500px;
+  display: inline-block;
+  position: relative; 
+}
+
+.areaside h2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000000;
+}
+
+.areaside ul li {
+  width: 50%;
+  padding-top: 25px;
+  border-bottom: 1px solid rgba(200,200,200);
+  height: 100px;
+  float: left;
+}
+
+.areaside img {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-top: 20px;
+  float: left;
+}
+
+.areaside ul li p {
+  height: 60px;
+  line-height: 4em;
+  font-size: 12.5px;
+}
+
+.tag {
+  width: 100%;
+  float: right;
+}
+
+.tag h2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000000;
+}
+
+.tag ul li {
+  font-size: 12.5px;
+  height: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  float: left;
+}
+
+.pickupwrap{
+  float: right;
+  width: 100%;
+}
+
+.pickupwrap h2{
+  font-family: Montserrat, sans-selif ;
+  font-size: 16px;
+  color: #222;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 35px 0 9px;
+  border-bottom: 1px solid #444;
+  clear: both; 
+}
+
+.pickuparticle{
+  padding: 18px 0 18px 83px;
+  border-bottom: 1px solid #eee;
+  height: 100px;
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+}
+
+.pickuptitle {
+  font-size: 14px;
+  line-height: 14px;
+  padding: 3px 0;
+}
+
+.pickuparticle img {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  background-color: #f7f7f7;
+}
+
+.sidewrap {
+  bottom: 0px;
+  width: 30%;
+  float: right;
+}
+
+.underwrap {
+  width: 100%;
+  margin-top: 7200px;
+}
+
+.articleunder {
+  
+}
+
+.underwrap h2{
+  font-family: Montserrat, sans-selif ;
+  font-size: 16px;
+  color: #222;
+  font-weight: 700;
+  line-height: 2.0;
+  border-bottom: 1px solid #444;
+  clear: both;
+  width: 100%;
+} 
+
+.underpickuparticle { 
+  padding: 18px 0 18px 83px;
+  border-bottom: 1px solid #eee;
+  height: 200px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.underpickuptitle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.underpickuptitle a{
+  position: absolute;
+  top: 45px;
+  left: 190px;
+  text-align: left;
+  display: inline-block;
+  width: 90%;
+}
+
+.underpickuparticle img {
+  height: 160px;
+  width: 160px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+
+.underpickuparticle h4 {
+  font-size: 12px;
+  color: #AAA;
+  position: absolute;
+  left: 190px;
+  top: 160px;
+  text-align: left;
+  display: inline-block;
+  width: 510px;
+}
+
+.sidewrap a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.underwrap a{ 
+  text-decoration: none;
+  color: #000000;
+}
+
+.fixed{
+  position: fixed;
+  right: 0;
+  z-index: -1;
+}
+
+@media(max-width: 1000px){
+  .sidewrap{
+    display: none;
+  }
