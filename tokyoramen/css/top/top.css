@@ -47,6 +47,7 @@
 
 .top-image {
 	color:#ffffff;
+	text-shadow:#FC0 1px 0 10px;
 	width:33.3%;
 	height:300px;
 	float:left;
@@ -65,21 +66,21 @@
 	margin-left:10px;
 }
 .top-image1{
-	background-image:url(../../images/top/beach.jpeg);
+	background-image:url(../../images/top/ramen2.jpeg);
 	background-size:cover;
-	background-position:center center;
+	background-position:50% 75%;
 	
 }
 
 .top-image2{
-	background-image:url(../../images/top/christmas_dating.jpeg);
+	background-image:url(../../images/top/ramen.jpeg);
 	background-size:cover;
 	background-position:center center;
 
 }
 
 .top-image3{
-	background-image:url(../../images/top/wine.jpeg);
+	background-image:url(../../images/top/ramen_shop.jpeg);
 	background-size:cover;
 	background-position:center center;
 	
@@ -232,11 +233,17 @@
 	width:60%;
 }
 
+.leftblock ul li a {
+	text-decoration:none;
+	color:#000000;
+}
+
 .rightblock{
 	float:right;
 	height:300px;
 	width:35%;
 }
+
 
 @media(max-width: 900px){
 	.top-image{
