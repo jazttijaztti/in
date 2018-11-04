@@ -1,0 +1,265 @@
+
+
+.wrapper{
+	display:none;
+	width:100%;
+	text-align:center;
+	box-sizing:border-box;
+	font-family:'Hiragino Kaku Gothic Pro';
+}
+
+.header{
+	height:100px;
+	width:100%;
+	padding-top:5px;
+	position:relative;
+}
+.header img{
+	height:30px;
+	width:30px;
+	position:absolute;
+	top:20px;
+	right:40px;
+}
+.menu{
+	z-index:5;
+	position:absolute;
+	right:80px;
+	top:70px;
+}
+.menu ul li{
+	border:1px solid rgba(200,200,200);
+	height:40px;
+	width:120px;
+	line-height:2em;
+	background-color:rgba(0, 0, 147, 0.7);
+	color:#ffffff;
+	display:none;
+
+
+}
+
+.header h1{
+	font-size:30px;
+	line-height:2em;
+}
+
+
+.top-image {
+	color:#ffffff;
+	width:33.3%;
+	height:300px;
+	float:left;
+	margin-bottom:100px;
+	position:relative;
+
+}
+
+.top-image p{
+	font-size:1.3em;
+	line-height:1.3em;
+	position:absolute;
+	bottom:40px;
+	text-align:left;
+	margin-right:10px;
+	margin-left:10px;
+}
+.top-image1{
+	background-image:url(../img/beach.jpeg);
+	background-size:cover;
+	background-position:center center;
+	
+}
+
+.top-image2{
+	background-image:url(../img/christmas_dating.jpeg);
+	background-size:cover;
+	background-position:center center;
+
+}
+
+.top-image3{
+	background-image:url(../img/wine.jpeg);
+	background-size:cover;
+	background-position:center center;
+	
+}
+.wrapper2{
+	width:90%;
+	margin-right:5%;
+	margin-left:5%;
+	clear:both;
+	text-align:left;
+
+}
+.wrapper2 h2{
+	padding-top:10px;
+	padding-bottom:20px;
+	border-bottom:solid 1px #000000;
+
+}
+
+
+.matome{
+	width:60%;
+	height:800px;
+	float:left;
+}
+
+
+
+
+.pickups {
+	margin-top:25px;
+	margin-bottom:25px;
+	border-bottom:1px solid rgba(200,200,200);
+	height:160px;
+	width:100%;
+
+}
+.pickups img{
+	height:130px;
+	width:30%;
+	float:left;
+
+}
+.pickups h3{
+	float:right;
+	width:65%;
+	line-height:1.3em;
+	font-size:1.2em;
+	margin-bottom: 20px;
+
+}
+
+.pickups p{
+	float:right;
+	width:65%;
+	font-size:5px;
+	color:rgba(200,200,200);
+	line-height:2.0em;
+}
+.area {
+	width:30%;
+	height:500px;
+	float:right;
+}
+
+.area ul li{
+	width:50%;
+	padding-top:25px;
+	border-bottom:solid 1px rgba(200,200,200);
+	height:100px;
+	float:left;
+}
+.area ul li a {
+	text-decoration:none;
+	color:#000000;
+}
+.area img{
+	height:50px;
+	width:50px;
+	border-radius:25px;
+	float:left;
+	margin-right:20px;
+}
+.area p{
+	height:60px;
+	line-height:4em;
+	font-size:12.5px;
+}
+
+
+.tags{
+	width:30%;
+	float:right;
+}
+
+.tags img{
+	height:12px;
+	width:12px;
+	margin-right:5px;
+}
+.tags ul li{
+	font-size:12.5px;
+	height:20px;
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-right:15px;
+	float:left;
+}
+.tags ul li a {
+	text-decoration:none;
+	color:#000000;
+}
+
+
+.footer {
+	width:80%;
+	margin:10%;
+	height:300px;
+
+}
+
+.footer img{
+	height:12px;
+	width:12px;
+	margin-right:5px;
+
+}
+.footer h3{
+	clear:both;
+	text-align:left;
+
+}
+.footer ul li{
+	font-size:12.5px;
+	height:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:20px;
+	float:left;
+
+}
+
+.leftblock{
+	float:left;
+	height:300px;
+	width:60%;
+}
+
+.rightblock{
+	float:right;
+	height:300px;
+	width:35%;
+}
+
+@media(max-width: 900px){
+	.top-image{
+		width:100%;
+	}
+	.top-image p {
+		text-align:center;
+	}
+	.matome{
+		width:100%;
+	}
+	.area{
+		display:none;
+		width:0%;
+	}
+	.tags{
+		display:none;
+		width:0%;
+	
+	}
+
+
+}
+
+.srilankataxi{
+	height: 220px;
+}
+.srilankataxi2{
+  height: 260px;
+}
