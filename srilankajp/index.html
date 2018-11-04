@@ -1,2 +1,258 @@
-ここにトップ
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>スリランカに観光に行く前にコレミヨ[タクシーチャーター必須]</title>
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script>
+		$(
+			function(){
+				$('.top-image1').on('mouseover',function(){
+					$('.top-image1').css('opacity','0.7');
+				});
+				$('.top-image1').on('mouseout',function(){
+					$('.top-image1').css('opacity','1');
+				});
+				$('.top-image2').on('mouseover',function(){
+					$('.top-image2').css('opacity','0.7');
+				});
+				$('.top-image2').on('mouseout',function(){
+					$('.top-image2').css('opacity','1');
+				});
+				$('.top-image3').on('mouseover',function(){
+					$('.top-image3').css('opacity','0.7');
+				});
+				$('.top-image3').on('mouseout',function(){
+					$('.top-image3').css('opacity','1');
+				});
+				$('.header img').on('click',function(){
+					$('.menu ul li').toggle(1000);
+				});
+				$('.header h1').on('click',function(){
+					$('.wrapper2 h2').attr("id","headline");
+				});
+				$(document).on('mouseover','#headline',function(){
+					$(this).css("font-size","30px");
+				});
 
+				$(".wrapper").fadeIn(2000);
+
+				$('.pickups').on('mouseover',function(){
+					$(this).css('opacity','0.7');
+				});
+				$('.pickups').on('mouseout',function(){
+					$(this).css('opacity','1');
+				});
+				$(".pickups h3").on("mouseover",function(){
+					$(this).css("text-decoration","underline")
+				});
+				$(".pickups h3").on("mouseout",function(){
+					$(this).css("text-decoration","none")
+				});
+
+
+				$(window).scroll(function() {
+ 					console.log($(this).scrollTop());
+
+ 					 var scrlTop = $(this).scrollTop();
+
+ 					if (scrlTop > 1000) {
+         				$('.pickups').fadeIn(1000);
+     				}
+
+
+     				var h3scrl = $('.pickups h3').offset().top;
+
+
+ 					if (h3scrl < scrlTop ) {
+         				$('.pickups h3').fadeIn(1000);
+         			}
+
+         		});
+
+			});
+	</script>
+
+	
+</head>
+<body>
+	<div class="wrapper">
+
+		<div class="header">
+			<h1>SRI TAXI SERVICE</h1>	
+			<img src="assets/img/menu_retrip.svg">	
+				<div class="menu">
+					<ul>
+						<li>ログイン</li>
+						<li>会員登録</li>
+					</ul>
+				</div>
+
+		</div>
+
+		<a href="#">
+		<div class="top-image1 top-image">
+			<p>タクシーチャーターは必須スリランカのタクシー貸切業者</p>
+			
+		</div>	
+	    </a>
+	    <a href="#">
+		<div class="top-image2 top-image">
+			<p>ニゴンボ シギリヤ ゴール この街を同時に回ることは難しい？</p>
+		</div>	
+	    </a>
+	    <a href="#">
+		<div class="top-image3 top-image">
+			<p>サファリだけではない究極に美味しいスリランカのグルメ</p>
+		</div>
+		</a>
+
+
+
+		<div class="wrapper2">
+
+			<div class="matome">
+				<h2>~スリランカ旅行の前に~</h2>
+
+
+				<a href="https://4travel.jp/travelogue/10309939"  rel="nofollow">
+				<div class="pickups srilankataxi">
+					<img src="assets/img/toast.jpeg">
+					<h3 class="title">二日目にダンブッラへ行く人向けの体験記(具体的な所要時間と食べ物の値段がわかります)</h3>
+					<p>4travelに投稿されている<b>スリランカ観光</b>の体験記です。現地での移動は<b>カーチャーター</b>や<b>ツーリストカー</b>や<b>タクシー</b>が必要だということ。現地では値段がある程度言い値であること、そして具体的に実際に著者が<b>タクシー</b>に払った金額。そして何時に起き何時に着いたのかなどが詳細に記載されているブログです。オムレツを食べたり、カレーの中でも<b>パイナップルカレー</b>や<b>マンゴーカレー</b>のビュッフェの話も記載されています。 <b>コロンボ</b>から<b>ダンブッラ</b>に行きゲストハウスに泊まりポロンナルワの湖に行き、遺跡周りをした２日目のブログです。移動の金額だけではなくオムレツパン、カレーやビールを頼んでの金額も現地価格で紹介しています。淡々としていますがわかりやすく事実に基づいた素敵な体験記となっています。
+					</p>				
+				</div>
+			    </a>	
+
+			   	<a href="https://4travel.jp/travelogue/10793469" rel="nofollow">
+				<div class="pickups srilankataxi2">
+					<img src="assets/img/toast.jpeg">
+					<h3 class="title">かつてはセイロンと呼ばれていたスリランカへ(キャンディへ行くなら参考になります。)</h3>
+					<p>北海道くらいの島に<b>世界遺産</b>が８個あるという事実から面白さを感じHISのツアーで旅をした方の<b>旅行ブログ</b>です。10:55分に成田を出発し、シンガポールを経由した場合どのような時間に着くのか体験とともに記載されています。著者は「<b>パームヴィレッジホテル</b>」に泊まっています。とれたてのヤシの実のジュースを飲む体験の後に<b>ツーリストカー(タクシーチャーターのようなもの)</b>に乗り、アヌラーダプラへ行っています。<b>アーユルヴェーダ</b>の紹介もしています。その後「<b>エデンガーデン</b>」に宿泊、そして<b>シギリヤロック</b>へ。フレスコ画を紹介しローカルフードも食べて報告しています。その後<b>ダンブッラ</b>に行き寺院の体験記を具体的に書いています。写真もたくさんあってとても参考になります。その後キャンディへ。コロニアル建築の<b>クイーンズホテル</b>に宿泊。紅茶の工場見学をし、<b>ピンナワラの像の孤児院</b>に移動します。読み応えいっぱいの記事でおすすめです。
+					</p>				
+				</div>
+			    </a>	
+
+
+
+
+			</div>
+			
+
+			<div class="area">
+				<h2>エリア一覧</h2>
+				<ul>
+					<li>
+						<a href="#">
+						<img src="assets/img/japan.jpeg">
+						<p>コロンボ</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+						<img src="assets/img/europe.jpeg">
+						<p>シギリヤ</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+						<img src="assets/img/south_america.jpeg">
+						<p>ニゴンボ</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+						<img src="assets/img/north_america.jpeg">
+						<p>アヌラーダプラ</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+						<img src="assets/img/africa.jpeg">
+						<p>ゴール</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+						<img src="assets/img/middle_east.jpeg">
+						<p>ダンブッラ</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+						<img src="assets/img/asia.jpeg">
+						<p>ピンナワラ</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="tags">
+				<h2>オススメタグ一覧</h2>
+				<ul>
+					<li><img src="assets/img/hashtag.jpeg"><a href="#">スリランカグルメ</a></li>
+					<li><img src="assets/img/hashtag.jpeg"><a href="#">スリランカタクシー</a></li>
+					<li><img src="assets/img/hashtag.jpeg"><a href="#">スリランカホテル</a></li>
+					<li><img src="assets/img/hashtag.jpeg"><a href="#">世界遺産</a></li>
+				</ul>
+			</div>
+		</div>
+			<div class="footer">
+				<div class="leftblock">
+					<h3>エリア一覧</h3>
+					<ul>
+						<li><img src="assets/img/location.jpeg">コロンボ</li>
+						<li><img src="assets/img/location.jpeg">ニゴンボ</li>
+						<li><img src="assets/img/location.jpeg">アヌラーダプラ</li>
+						<li><img src="assets/img/location.jpeg">ゴール</li>
+						<li><img src="assets/img/location.jpeg">キャンディ</li>
+						<li><img src="assets/img/location.jpeg">ダンブッラ</li>
+						<li><img src="assets/img/location.jpeg">ピンナワラ</li>
+						<li><img src="assets/img/location.jpeg">シギリヤ</li>
+					</ul>
+
+					<h3>人気のタグ</h3>
+					<ul>
+					<li><img src="assets/img/hashtag.jpeg"><a href="#">スリランカグルメ</a></li>
+					<li><img src="assets/img/hashtag.jpeg"><a href="#">スリランカタクシー</a></li>
+					<li><img src="assets/img/hashtag.jpeg"><a href="#">スリランカホテル</a></li>
+					<li><img src="assets/img/hashtag.jpeg"><a href="#">世界遺産</a></li>
+					</ul>
+				</div>
+
+				<div class="rightblock">
+					<h3>SRI TAXI SERVICEについて</h3>
+					<ul>
+						<li>SRI TAXI SERVICEについて</li>
+					</ul>
+				</div>
+			</div>
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+	</div>
+</body>
+
+
+
+
+
+
+
+
+	
+
+
+</html>
