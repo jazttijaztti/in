@@ -21,23 +21,7 @@
 	top:20px;
 	right:40px;
 }
-.menu{
-	z-index:5;
-	position:absolute;
-	right:80px;
-	top:70px;
-}
-.menu ul li{
-	border:1px solid rgba(200,200,200);
-	height:40px;
-	width:120px;
-	line-height:2em;
-	background-color:rgba(0, 0, 147, 0.7);
-	color:#ffffff;
-	display:none;
 
-
-}
 
 .header h1{
 	font-size:30px;
