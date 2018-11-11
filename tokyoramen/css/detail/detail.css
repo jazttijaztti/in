@@ -181,7 +181,7 @@ background: linear-gradient(transparent 60%, #ff99ff 60%);
     margin-right: 50px;
 }
 
-.kutikomi:before{    
+/*.kutikomi:before{    
     content: "";
     position: absolute;
     left: -38px;
@@ -202,6 +202,7 @@ background: linear-gradient(transparent 60%, #ff99ff 60%);
     background: #fff0c6;
     border-radius: 50%;
 }
+*/
 .kutikomi p {
     margin: 0; 
     padding: 0;
