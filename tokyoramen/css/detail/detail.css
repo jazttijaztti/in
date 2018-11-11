@@ -165,16 +165,18 @@ background: linear-gradient(transparent 60%, #ff99ff 60%);
     position: relative;
     margin: 2em 0 2em 40px;
     padding: 15px;
-    background: #fff0c6;
+    background: #f6f6f6;
     border-radius: 30px;
     position:relative;
     z-index:1;
+    text-align: left;
+    padding: 20px 40px;
 }
 
 .kutikomi img {
     position:absolute;
     left: -90px;
-    bottom: -20px;
+    bottom: -35px;
     width:50px;
     margin-right: 50px;
 }
