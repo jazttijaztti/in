@@ -143,7 +143,6 @@ ul {
 text-align:left;
 font-weight:bold;
 font-family: "Sawarabi Mincho";
-
 }
 .strong {
 background: linear-gradient(transparent 60%, #ff99ff 60%);
@@ -173,10 +172,10 @@ background: linear-gradient(transparent 60%, #ff99ff 60%);
 
 .kutikomi img {
     position:absolute;
-    left: -90px;
-    bottom: -20px;
+    right: -25px;
+    top: 35px;
+    z-index:5;
     width:50px;
-    margin-right: 50px;
 }
 
 .kutikomi:before{    
@@ -300,6 +299,30 @@ background: linear-gradient(transparent 60%, #ff99ff 60%);
   display: inline-block;
   text-align: left;
   margin-left: 25px;
+}
+
+.comment {
+  font-weight: bold;
+  position: absolute;
+  bottom: -40px;
+  left: 20px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 5px;    
+}
+
+ { 
+  font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 5px;
+}
+
+.sujest {
+  text-align: left;
 }
 
 .contryImage {
