@@ -1,119 +1,100 @@
 <!DOCTYPE>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title></title>
-	<link rel="stylesheet" href="css/list/list.css">
-	<link rel="stylesheet" href="css/list/reset.css">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script>
-		$(
-			function(){
-				$('.top img').on('mouseover',function(){
-					$('.top img').css('opacity','0.3');
-				});
-		$('.header img').on('click',function(){
-					$('.header ul li').toggle(1000);
-				});
-		$('.top p').on('click', function(){
-                         $('.top p').text('美味いラーメンが食べたい！！！').animate({marginLeft: "200px"},500);
-                               });
-
-		 $(document).on('click', '.top h1 ', function(){
-         $('h1, h2').attr('id', 'japan').on('click', function(){
-           console.log('id=""h1とh2');
-           $(this).css('font-size', '50px')
-           console.log('h1とh2が大きくなるよ');
-        							 });
-
-								  });
-
-		  });
-	</script>
-
-
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/list/list.css">
+  <link rel="stylesheet" href="css/list/reset.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+      $(function(){
+        $('.top img').on('mouseover',function(){
+          $('.top img').css('opacity','0.3')  
+	});
+        $('.header img').on('click',function(){
+          $('.header ul li').toggle(1000);
+	});
+        $('.top p').on('click', function(){
+          $('.top p').text('美味いラーメンが食べたい！！！').animate({marginLeft: "200px"},500);
+         });
+         $(document).on('click', '.top h1 ', function(){
+           $('h1, h2').attr('id', 'japan').on('click', function(){
+             console.log('id=""h1とh2');
+             $(this).css('font-size', '50px')
+             console.log('h1とh2が大きくなるよ');
+              });
+	 });
+       });
+  </script>
 </head>
 <body>
-	<div class="wrapper">
+  <div class="wrapper">
+    <div class="header">
+      <div class="header">
+        <h1>東京ラーメンドットコム</h1>
+      </div>
+       <div class="subheader">
+     	 <ul>
+           <a href="#">
+             <li>トップページ</li>
+           </a>
+           <a href="#">
+             <li>新宿のラーメン</li>
+           </a>
+           <a href="#">
+　　　       <li>高尾・日野・八王子のラーメン</li>
+           </a>
+           <a href="#">
+　　　 	     <li>中野のラーメン</li>
+           </a>
+         </ul>
+       </div>
 
-		<div class="header">
-			<h1>東京ラーメンドットコム</h1>
-		</div>
-		  <div class="subheader">
-     		 <ul>
- <a href="#">
+    <div class="top">
+      <img src="images/list/3.jpg">
+      <h1>八王子のラーメン</h1>
+      <p>
+        訪れた際は是非行ってみたいラーメン屋、そんな地元の人々に愛されるコアな<br>
+        お店が名を連ねます。
+      </p>
+    </div>
 
-　　　 		 <li>トップページ</li>
-</a>
-<a href="#">
-　　　 		 <li>新宿のラーメン</li>
-              </a>
-              <a href="#">
-　　　 		 <li>高尾・日野・八王子のラーメン</li>
-              </a>
-              <a href="#">
-　　　 		 <li>中野のラーメン</li>
-               </a>
-     		 </ul>
-   		 </div>
+    <div class="wrapper2">
+      <div class="matome">
+        <h2>「八王子のラーメン」に関する記事一覧( 10件中 1 - 10件を表示 ) </h2>
 
-
-
-
-	<div class="top">
-	  <img src="images/list/1.jpg">
-          <a href="#">
-            <h1>中野のラーメン</h1>
-          </a>
-            <p>新宿からJR中央線で約5分。中野には独自のラーメンカルチャーが存在しています。
-               <br>「ラーメン×中野＝最高！」
-            </p>
-        </div>
-
-
-
-
-
-
-
-
-
-             <div class="wrapper2">
-			<div class="matome">
-				<h2>「中野のラーメン」に関する記事一覧( 10件中 1 - 10件を表示 ) </h2>
-
-                <a href="#">
-				<div class="pickups">
-					<img src="images/list/3.jpg">
-					<h3 class="title">東中野　ラーメン　「kinari」</h3>
-					<p>あの名店が東中野に移転してNEW OPEN！！！…</p>
-					<p>2018年11月4日</p>
-
-				</div>
-                </a>
-                 <a href="#">
-				<div class="pickups">
-					<img src="images/list/4.jpg">
-					<h3 class="title">東中野　ラーメン　「りんご堂」</h3>
-					<p>東中野といえばまずはここだろう……</p>
-					<p>2018年11月3日</p>
-				</div>
-                </a>
-                 <a href="#">
-				<div class="pickups">
-                 <img src="images/list/5.jpg">
-                    <h3 class="title">中野　ラーメン　「青葉」</h3>
-                    <p>ラーメン激戦区「中野」において、……</p>
-                    <p>2018年11月1日</p>
-                   </div>
-                   </a>
+        <a href="#">
+          <div class="pickups">
+	    <img src="images/list/3.jpg">
+	    <h3 class="title">八王子　ラーメン　「美豚」</h3>
+	    <p>あの名店が東中野に移転してNEW OPEN！！！…</p>
+	    <p>2018年11月4日</p>
+	  </div>
+         </a>
+         <a href="#">
+           <div class="pickups">
+	     <img src="images/list/4.jpg">
+		<h3 class="title">八王子　ラーメン　「ラーメン二郎　野猿街道店」</h3>
+		<p>東中野といえばまずはここだろう……</p>
+		<p>2018年11月3日</p>
+	    </div>
+           </a>
+           <a href="#">
+             <div class="pickups">
+               <img src="images/list/5.jpg">
+                  <h3 class="title">八王子　ラーメン　「纏」</h3>
+                  <p>ラーメン激戦区「八王子」において、……</p>
+                  <p>2018年11月1日</p>
+              </div>
+            </a>
 
 
                      <a href="#">
                 <div class="pickups">
                  <img src="images/list/3.jpg">
-                    <h3 class="title">中野　ラーメン　「ようすけ」</h3>
+                    <h3 class="title">八王子　ラーメン　「虎空」</h3>
                     <p>ラーメンフリークなら誰もが知っている……</p>
                     <p>2018年11月1日</p>
                     </div>
@@ -121,51 +102,11 @@
  <a href="#">
                 <div class="pickups">
                  <img src="images/list/4.jpg">
-                    <h3 class="title">中野　ラーメン　「鈴蘭」</h3>
+                    <h3 class="title">八王子　ラーメン　「小川」</h3>
                     <p>ラーメンフリークなら誰もが知っている……</p>
                     <p>2018年10月31日</p>
                     </div>
                     </a>
- <a href="#">
-                <div class="pickups">
-                 <img src="images/list/5.jpg">
-                    <h3 class="title">中野　ラーメン　「サイコロ」</h3>
-                    <p>ラーメンフリークなら誰もが知っている……</p>
-                    <p>2018年10月30日</p>
-                    </div>
-                    </a>
- <a href="#">
-                <div class="pickups">
-                 <img src="images/list/3.jpg">
-                    <h3 class="title">中野　ラーメン　「大勝軒」</h3>
-                    <p>あの名店、「大勝軒」が中野にも店を構えている。……</p>
-                    <p>2018年10月28日</p>
-                    </div>
-                    </a>
- <a href="#">
-                <div class="pickups">
-                 <img src="images/list/5.jpg">
-                    <h3 class="title">中野　ラーメン　「五丁目煮干し」</h3>
-                    <p>ラーメンフリークなら誰もが知っている……</p>
-                    <p>2018年10月26日</p>
-                    </div>
-                    </a>
- <a href="#">
-                <div class="pickups">
-                 <img src="images/list/4.jpg">
-                    <h3 class="title">中野　ラーメン　「ばりこて」</h3>
-                    <p>ラーメンフリークなら誰もが知っている……</p>
-                    <p>2018年10月23日</p>
-                   </div>
-                   </a>
- <a href="#">
-                <div class="pickups">
-                 <img src="images/list/3.jpg">
-                    <h3 class="title">中野　ラーメン　「えん寺」</h3>
-                    <p>ラーメンフリークなら誰もが知っている……</p>
-                    <p>2018年10月22日</p>
-                   </div>
-                   </a>
 
                 </div>
                 </div>
@@ -342,27 +283,5 @@
                     </a>
                  </ul>
                  </div>
-
-
-
-
-
-
-
-
-
-
 </body>
-
-
-
-
-
-
-
-
-
-
-
 </html>
-
