@@ -3,9 +3,10 @@ content:"#";
 color:black;
 }
 .a-link{
-padding-left:2%;
+margin-right:8px;
 color:black;
 transition:0.3s;
+margin-bottom: 24px;
 }
 .a-link:hover{
 opacity:0.6;
