@@ -9,9 +9,23 @@ li {
 
 /*
 
-tokyoramen-red ##FB4343
+tokyoramen-red #FB4343
 base-color #fff
 font-color #303030
+
+darkest-gray #595959
+dark-gray #979797
+light-gray #D6D6D6
+lightest-gray #EAEAEA
+
+background-color: #FBFBFB;
+
+
+space-xs 4px
+space-sm 8px
+space-md 12px
+space-lg 20px
+space-xl 24px
 
 font-size-sm 12px
 font-size-md 14px
