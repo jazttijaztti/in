@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/source</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon/source" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="グリフのフリーアイコン" transform="translate(50.000000, 50.500000) rotate(-180.000000) translate(-50.000000, -50.500000) translate(0.000000, 13.000000)" fill="#FB4343" fill-rule="nonzero">
+            <polygon id="Shape" points="0 43.026166 20.9235771 43.026166 8.63052902 75 26.1901957 75 42.8571429 43.026166 42.8571429 0 0 0"></polygon>
+            <polygon id="Shape" points="57.1428571 0 57.1428571 43.026166 78.0664343 43.026166 65.7766868 75 83.3330529 75 100 43.026166 100 0"></polygon>
+        </g>
+    </g>
+</svg>

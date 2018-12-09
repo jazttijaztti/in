@@ -1,0 +1,40 @@
+.source_wrap{
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+
+.source{
+  display: flex;
+}
+
+.source_icon{
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.source_icon img{
+  width: 25px;
+  height: 25px;
+}
+
+.source_text{
+  color: #808080;
+}
+
+.source_text_design{
+  font-size: 14px;
+  text-align: left;
+}
+
+.source_point{
+  text-align: right;
+  font-size: 12px;
+}
+
+.source_point_tx{ 
+  text-decoration: none;
+  color: #808080;
+}
