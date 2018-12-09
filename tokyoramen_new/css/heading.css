@@ -1,0 +1,19 @@
+.heading{
+height:100px;
+width:100%;
+margin-bottom:40px;
+margin-left:5%;
+}
+.heading h1{
+font-weight:bold;
+color:black;
+font-size:25px;
+}
+.heading span{
+color:red;
+font-size:30px;
+
+}
+
+
+
