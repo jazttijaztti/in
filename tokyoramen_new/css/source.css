@@ -1,0 +1,51 @@
+
+.source_wrap{
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+
+.source{
+  position: relative;
+}
+
+.source_icon{
+  position: absolute;
+  top:8px;
+  left:10px;
+}
+
+.source_icon img{
+  width: 25px;
+  height: 25px;
+}
+
+.source_text{
+  color: #808080;
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+
+.source_text_desin{
+  font-size: 14px;
+  text-align: left;
+}
+
+.source_point{
+  position: absolute;
+  top: 85px;
+  right: -30px;
+}
+
+@media only screen and (max-width: 740px ){
+  .source_point{      
+    position: absolute;
+    top: 85px;
+    right: -30px;
+    margin-top: 30px;
+  }
+}
+
