@@ -1,0 +1,14 @@
+.heading{
+margin-bottom:40px;
+font-weight:bold;
+color:black;
+font-size:25px;
+}
+.heading:first-letter{
+color:red;
+font-size:30px;
+
+}
+
+
+
