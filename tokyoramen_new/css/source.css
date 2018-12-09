@@ -1,4 +1,3 @@
-
 .source_wrap{
   text-align: center;
   margin-left: 15%;
@@ -8,13 +7,12 @@
 
 
 .source{
-  position: relative;
+  display: flex;
 }
 
 .source_icon{
-  position: absolute;
-  top:8px;
-  left:10px;
+  margin-right: 15px;
+  margin-top: 10px;
 }
 
 .source_icon img{
@@ -24,64 +22,19 @@
 
 .source_text{
   color: #808080;
-  position: absolute;
-  top: 0;
-  left: 50px;
 }
 
-.source_text_desin{
+.source_text_design{
   font-size: 14px;
   text-align: left;
 }
 
 .source_point{
   text-align: right;
-}
-
-@media only screen and (max-width: 740px ){
-  .source_point{      
-    position: absolute;
-    top: 85px;
-    right: -30px;
-    margin-top: 30px;
-  }
-}
-
-
-@media only screen and (max-width: 540px){
-  .source_point{ 
-    position: absolute;
-    top: 85px;
-    right: -30px;
-    margin-top: 80px;
-  }
-}
-
-
-@media only screen and (max-width: 440px){
-  .source_point{ 
-    position: absolute;
-    top: 85px;
-    right: -30px;
-    margin-top: 150px;
-  }
-}
-
-
-@media only screen and (max-width: 340px){
-  .source_point{ 
-    position: absolute;
-    top: 85px;
-    right: -30px;
-    margin-top: 200px;
-  }
-}
-
-.source_point_tx{
   font-size: 12px;
 }
 
-.source_point_tx a{
+.source_point_tx{ 
   text-decoration: none;
   color: #808080;
 }
