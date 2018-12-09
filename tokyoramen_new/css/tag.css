@@ -1,0 +1,15 @@
+.a-link:before{
+content:"#";
+color:black;
+}
+.a-link{
+margin-right:8px;
+color:black;
+transition:0.3s;
+margin-bottom: 24px;
+}
+.a-link:hover{
+opacity:0.6;
+}
+
+
