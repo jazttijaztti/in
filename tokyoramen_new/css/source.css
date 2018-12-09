@@ -35,9 +35,7 @@
 }
 
 .source_point{
-  position: absolute;
-  top: 85px;
-  right: -30px;
+  text-align: right;
 }
 
 @media only screen and (max-width: 740px ){
