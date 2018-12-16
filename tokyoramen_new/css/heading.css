@@ -1,4 +1,4 @@
-.heading{
+.heading-1{
 margin-bottom:40px;
 font-weight:bold;
 color:black;
@@ -8,6 +8,10 @@ font-size:25px;
 color:red;
 font-size:30px;
 
+}
+.heading-2{
+border-bottom:1px solid red;
+display:inline-block;
 }
 
 
