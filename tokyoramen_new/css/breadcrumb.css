@@ -1,0 +1,46 @@
+.breadcrumb_wrap{
+  border-bottom: 1px solid #eee;
+  width: auto; 
+}
+
+.breadcrumb{
+  overflow-x: auto;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;  
+}
+
+.breadcrumb li{
+  margin-right: 20px;
+  font-family: "游ゴシック";
+  font-size: 14px;
+  letter-spacing: 3px;
+  width: auto;
+  color: #666;
+}
+
+.breadcrumb li:before{
+  content"";
+}
+
+.breadcrumb li:after{
+  content: ">";
+  color: #666;
+}
+
+a{
+  text-decoration: none;
+  color: #666;  
+}
+
+ul{
+  list-style:none;
+}
+
+@media only screen and (max-width: 540px){
+  .breadcrumb{
+    overflow-x: scroll;
+    -webkit-overflow-x: scroll;  
+  }
+  
+}
