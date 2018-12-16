@@ -14,18 +14,15 @@
   margin-right: 20px;
   font-family: "游ゴシック";
   font-size: 14px;
-  letter-spacing: 3px;
   width: auto;
   color: #666;
 }
 
-.breadcrumb li:before{
-  content"";
-}
 
 .breadcrumb li:after{
   content: ">";
   color: #666;
+  margin-left: 14px;
 }
 
 a{
