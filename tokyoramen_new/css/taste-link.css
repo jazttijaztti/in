@@ -1,0 +1,61 @@
+.taste-link::first-letter{
+	color:red;
+	font-size:200%;
+}
+.taste-link{
+     font-size:20px;
+     margin-bottom:40px; 
+}
+.taste{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+margin-bottom:50px;
+}
+
+.taste-type{
+width:40%;
+background-color:gray;
+border-radius:10px;
+text-align:center;
+margin-left:10%;
+margin-right:3%;
+padding-bottom: 90px;
+}
+a:hover{
+opacity:0.8;
+
+}
+.taste-text{
+
+}
+
+.kotteri{
+color:white;
+font-size:50px;
+}
+.kotteri-description{
+margin-top:3px;
+color:white;
+}
+
+.taste-type2{
+width:40%;
+background-color:#FAFAFA;
+border-radius:10px;
+text-align:center;
+padding-bottom:10px;
+padding-bottom: 90px;
+}
+.assari{
+font-size:50px;
+color:black;
+}
+.assari-description{
+margin-top:3px;
+color:black;
+}
+
+
+
