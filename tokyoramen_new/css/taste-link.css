@@ -8,21 +8,21 @@
 }
 .taste{
 display: flex;
-flex-direction: row;
-flex-wrap: wrap;
 justify-content: center;
 margin-bottom:50px;
 }
 
 .taste-type{
-width:40%;
-background-color:gray;
+background-color:#303030;
 border-radius:10px;
 text-align:center;
-margin-left:10%;
-margin-right:3%;
-padding-bottom: 90px;
+display: block;
+flex-shrink:1;
+flex-grow:1;
+flex-basis: calc(50% - 16px);
+padding:36px 8px;
 }
+
 a:hover{
 opacity:0.8;
 
@@ -33,7 +33,8 @@ opacity:0.8;
 
 .kotteri{
 color:white;
-font-size:50px;
+font-size:20px;
+
 }
 .kotteri-description{
 margin-top:3px;
@@ -41,15 +42,19 @@ color:white;
 }
 
 .taste-type2{
-width:40%;
-background-color:#FAFAFA;
+background-color:#FFF;
 border-radius:10px;
 text-align:center;
-padding-bottom:10px;
-padding-bottom: 90px;
+display:block;
+flex-shrink:1;
+flex-grow:1;
+flex-basis: calc(50% - 16px);
+padding:36px 8px;
+box-shadow:2px 3px 12px rgba(0,0,0,0.16);
+margin-left:32px;
 }
 .assari{
-font-size:50px;
+font-size:20px;
 color:black;
 }
 .assari-description{
@@ -57,5 +62,16 @@ margin-top:3px;
 color:black;
 }
 
+@media screen and (max-width: 480px){
+	.taste-type{
+	flex-basis: calc(50% - 6px);
+	}
+	.taste-type2{
+	flex-basis: calc(50% - 6px);
+	margin-left:12px;
+}
 
+
+	
+}
 
