@@ -95,8 +95,9 @@
 
 	.area_img {
 		height:60px;
-		width:80%;
+		width:100%;
 		margin-bottom:20px;
+		background-position:50% 50%;
 	}
 	
 
