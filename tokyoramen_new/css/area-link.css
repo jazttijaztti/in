@@ -1,94 +1,104 @@
-.recommend_wrap{
-  width: 100%;
-  padding: 0 5% 0 5%;
-}
+.area_link {
 
-.a_r{
-  font-size: 26px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
-.a_r span{
-  color: red;
-  font-size: 36px;
-}
-
-.rec_content{
-  display: flex;
-  display: box;
-}
-
-.content_img{
-  width: 40%;
-  object-fit: cover;
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-
-.content_img img{
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  width: 100%;
-}
-
-@media only screen and (max-width: 650px){
-  .content_img{
-    width: 100px;
-  }
-
-  .content_img img{
-    border-radius: 40px;
-  }
-
-  .source{
-    margin-left: 55%;
-    margin-top: 20px; 
-   }
-}
-
-.content_img img:hover{
-  opacity: 0.8;
 }
 
 
 
-.rec_tx{
-  margin-left: 10px;
-  text-align: left;
+
+.area_title {
+	margin-bottom:20px;
+	margin-left:10%;
+	margin-top:20px;
+	display:block;
+}
+
+.area_title:first-letter {
+	font-size:1.2em;
+	color:#FF5920;
+
+
+}
+
+.area_block {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items:center;
+	margin-right:10%;
+	margin-left:10%;
+	margin-bottom:100px;
+	width:80%;
+
+
+}
+
+.area_img {
+	height:100px;
+	width:30%;
+	background-size:cover;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+	position:relative;
+	z-index:0;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
 }
 
 
 
-.rec_tx_comment{
-  font-size: 18px;
-  text-decoration: underline;
-  font-weight: bold;
-  margin-bottom: 15px;
+.area_shinjuku {
+	background-image:url(../images/shinjuku.jpg);
 }
 
-.rec_tx_name{
-  display: flex;
-  -webkit-display: flex;
-  margin-bottom: 10px;
+.area_nakano {
+	background-image:url(../images/nakano.jpg);
+}
+.area_takao {
+	background-image:url(../images/takao.jpg);
 }
 
-.name{
-  font-size: 14px;
-  font-weight: bold;
+
+.area_name {
+	color:#ffffff;
+	z-index:100;
+	font-size:1.4em;
+	position:absolute;
+
 }
 
-.place{
-  color: #c0c0c0;
-  font-size: 16px;
+.area_img::before {
+	background-color:rgba(0,0,0,0.3);
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	content: ' ';
+	z-index:1;
 }
 
-.rec_tx_dscp{
-  color: #c0c0c0;
-  font-size: 12px;
-}
 
-.source{
-  font-size: 12px;
-  padding-left: 25%;
+
+@media screen and (max-width:700px) {
+
+	.area_block {
+		display:block;
+	}
+
+	.area_img {
+		height:60px;
+		width:100%;
+		margin-bottom:20px;
+		background-position:50% 50%;
+	}
+	
+
 }
