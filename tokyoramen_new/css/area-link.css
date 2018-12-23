@@ -1,0 +1,100 @@
+.area_link {
+
+}
+
+
+
+
+.area_title {
+	margin-bottom:20px;
+	margin-left:10%;
+	margin-top:20px;
+	display:block;
+}
+
+.area_title:first-letter {
+	font-size:1.2em;
+	color:#FF5920;
+
+
+}
+
+.area_block {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items:center;
+	margin-right:10%;
+	margin-left:10%;
+	margin-bottom:100px;
+	width:80%;
+
+
+}
+
+.area_img {
+	height:100px;
+	width:30%;
+	background-size:cover;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+	position:relative;
+	z-index:0;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
+}
+
+
+
+.area_shinjuku {
+	background-image:url(../images/shinjuku.jpg);
+}
+
+.area_nakano {
+	background-image:url(../images/nakano.jpg);
+}
+.area_takao {
+	background-image:url(../images/takao.jpg);
+}
+
+
+.area_name {
+	color:#ffffff;
+	z-index:100;
+	font-size:1.4em;
+	position:absolute;
+
+}
+
+.area_img::before {
+	background-color:rgba(0,0,0,0.3);
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	content: ' ';
+	z-index:1;
+}
+
+
+
+@media(max-width: 700px){
+
+	.area_img {
+		height:60px;
+		width:100%;
+		display:block;
+		margin-bottom:20px;
+	}
+	
+
+}
