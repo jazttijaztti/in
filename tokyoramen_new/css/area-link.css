@@ -1,35 +1,8 @@
-.area_link {
-
-}
-
-
-
-
-.area_title {
-	margin-bottom:20px;
-	margin-left:10%;
-	margin-top:20px;
-	display:block;
-}
-
-.area_title:first-letter {
-	font-size:1.2em;
-	color:#FF5920;
-
-
-}
-
 .area_block {
 	display:flex;
 	flex-direction:row;
 	justify-content: space-between;
 	align-items:center;
-	margin-right:10%;
-	margin-left:10%;
-	margin-bottom:100px;
-	width:80%;
-
-
 }
 
 .area_img {
@@ -99,6 +72,6 @@
 		margin-bottom:20px;
 		background-position:50% 50%;
 	}
-	
+
 
 }

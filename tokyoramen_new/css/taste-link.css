@@ -1,11 +1,3 @@
-.taste-link::first-letter{
-	color:red;
-	font-size:200%;
-}
-.taste-link{
-     font-size:20px;
-     margin-bottom:40px; 
-}
 .taste{
 display: flex;
 justify-content: center;
@@ -21,14 +13,7 @@ flex-shrink:1;
 flex-grow:1;
 flex-basis: calc(50% - 16px);
 padding:36px 8px;
-}
-
-a:hover{
-opacity:0.8;
-
-}
-.taste-text{
-
+text-decoration: none;
 }
 
 .kotteri{
@@ -52,6 +37,7 @@ flex-basis: calc(50% - 16px);
 padding:36px 8px;
 box-shadow:2px 3px 12px rgba(0,0,0,0.16);
 margin-left:32px;
+text-decoration: none;
 }
 .assari{
 font-size:20px;
@@ -72,6 +58,5 @@ color:black;
 }
 
 
-	
-}
 
+}
