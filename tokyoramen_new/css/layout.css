@@ -1,0 +1,16 @@
+.layout-datail{
+width:640px;
+margin:80px 0px 240px 0;
+}
+.layout-list{
+width:960px;
+margin:60px 0 240px 0;
+}
+@media screen and (max-width:480px){
+.layout-detail,.layout-list{
+margin:40px 24px 200px 24px;
+
+}
+}
+
+
