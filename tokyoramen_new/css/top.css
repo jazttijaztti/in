@@ -1,0 +1,47 @@
+.mv{
+  width: 100%;
+  background: url(../images/mv_pc.jpg) center center / cover no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mv h1{
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.sp_mv{
+  display: none;
+}
+
+.sp_mv h1{
+  display: none;
+}
+
+@media only screen and (max-width:960px){
+
+  .mv{
+    display: none;
+  }
+
+  .sp_mv{
+    display: block;
+    background: url(../images/mv_sp.jpg) center center no-repeat;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+
+  .sp_mv h1{
+    display: block;
+    color: #ffffff;
+    font-size: 24px;
+  }
+}
+
+
