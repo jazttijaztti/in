@@ -9,6 +9,10 @@
   padding: 30px
 }
 
+.mv h2{
+  color: #ffffff;
+}
+
 @media only screen and (max-width:960px){
 
   .mv{
