@@ -10,9 +10,18 @@
   background: #ffffff;
 }
 
+.header h2{
+  padding: 0 0 5px 0;
+}
+
 .header a{
   text-decoration: none;
   color: black;
   font-size: 18px; 
   font-weight: bold;
+  width: 600px;
+}
+
+.header a img{
+  width: 100%;
 }

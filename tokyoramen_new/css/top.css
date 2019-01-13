@@ -6,28 +6,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.mv h1{
-  color: #ffffff;
-  font-size: 24px;
-}
-
-.sp_mv{
-  display: none;
-}
-
-.sp_mv h1{
-  display: none;
+  padding: 30px
 }
 
 @media only screen and (max-width:960px){
 
   .mv{
-    display: none;
-  }
-
-  .sp_mv{
     display: block;
     background: url(../images/mv_sp.jpg) center center no-repeat;
     height: 70vh;
@@ -37,7 +21,7 @@
     justify-content: center;
   } 
 
-  .sp_mv h1{
+  .mv h2{
     display: block;
     color: #ffffff;
     font-size: 24px;
