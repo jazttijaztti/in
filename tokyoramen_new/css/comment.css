@@ -3,10 +3,9 @@
 }
 
 .comment_wrapper {
-	margin-right:15%;
-	margin-left:15%;
-	margin-top:150px;
-	margin-bottom:150px;
+	margin-left:4%;
+	margin-top:32px;
+	margin-bottom:32px;
 	/*border:1px solid black;*/
 	height:auto;
 
@@ -36,6 +35,12 @@
 	border-radius:80%;
 	flex-basis:100px;
 	flex-shrink:0;
+
+}
+
+.comment_title {
+	padding:14px;
+
 
 }
 
@@ -86,9 +91,21 @@
 
 
 .comment_text p {
-	padding:15px;
+	padding:14px;
 }
 
+
+
+
+@media screen and (max-width:700px) {
+
+	.comment_wrapper {
+		margin-left:10%;
+		margin-right:10%;
+	}
+	
+
+}
 
 
 
