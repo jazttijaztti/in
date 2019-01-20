@@ -1,0 +1,49 @@
+.rec_content{
+  display: flex;
+}
+.content_img{
+  width: 240px;
+  object-fit: cover;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.content_img img{
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  width: 100%;
+}
+@media only screen and (max-width: 650px){
+  .content_img{
+    width: 100px;
+  }
+}
+.content_img img:hover{
+  opacity: 0.8;
+}
+.rec_tx{
+  margin-left: 10px;
+  text-align: left;
+}
+.rec_tx_comment{
+  font-size: 18px;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.name{
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.name span{
+  color: #c0c0c0;
+  color: #595959;
+  font-weight: normal;
+}
+
+.rec_tx_dscp{
+  color: #c0c0c0;
+  color: #979797;
+  font-size: 12px;
+}
