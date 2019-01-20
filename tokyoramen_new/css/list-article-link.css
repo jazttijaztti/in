@@ -1,0 +1,44 @@
+.list-article-link{
+	display:flex;
+}
+
+.article_contents {
+  margin-left: 24px;
+}
+
+.article_title {
+  margin-bottom: 12px;
+	text-decoration:underline;
+}
+
+.article_img {
+	width:320px;
+	height:320px;
+	object-fit:cover;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+
+}
+
+
+
+@media screen and (max-width:700px) {
+
+	.list-article-link{
+		display:block;
+	}
+
+  .article_contents {
+    margin-left: 0;
+  }
+
+	.article_title {
+		margin-top:10px;
+
+	}
+
+	.article_img {
+		width:100%;
+	}

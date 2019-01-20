@@ -1,3 +1,4 @@
+
 .comment_area {
 	width:100%;
 	height:auto;
@@ -22,6 +23,12 @@
 	border-radius:80%;
 	flex-basis:40px;
 	flex-shrink:0;
+
+}
+
+.comment_title {
+	padding:14px;
+
 
 }
 
