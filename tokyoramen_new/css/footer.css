@@ -1,3 +1,8 @@
-.copyright{
+.footer {
+  text-align: center;
+}
 
+.copyright {
+  margin-bottom: 8px;
+  font-size: 10px;
 }

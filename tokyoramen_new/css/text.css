@@ -1,9 +1,19 @@
-.text-marker_pink{
-background:linear-gradient(transparent 60%, #ff66ff 60%);
+.text-marker_red{
+background:linear-gradient(transparent 60%, rgba(251, 67, 67, 0.4) 60%);
+font-weight: bold;
 }
 .text-marker-lime_futo{
 background:linear-gradient(transparent 60%, #66FFCC 60%);
-
-
 }
 
+.text--left {
+  text-align: left;
+}
+
+.text--right {
+  text-align: right;
+}
+
+.text--center {
+  text-align: center;
+}

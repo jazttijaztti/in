@@ -1,0 +1,37 @@
+.section-xl {
+  margin-bottom: 120px;
+}
+
+.section-lg {
+  margin-bottom: 80px;
+}
+
+.section-md {
+  margin-bottom: 60px;
+}
+
+.section-sm {
+  margin-bottom: 40px;
+}
+
+.block-lg {
+  margin-bottom: 32px;
+}
+
+.block-md {
+  margin-bottom: 24px;
+}
+
+.block-sm {
+  margin-bottom: 12px;
+}
+
+.block-xs {
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 480px){
+  .block-lg {
+    margin-bottom: 60px;
+  }
+}
