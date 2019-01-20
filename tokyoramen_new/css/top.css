@@ -11,12 +11,12 @@
 
 .mv h2{
   color: #ffffff;
+  text-align: center;
 }
 
 @media only screen and (max-width:960px){
 
   .mv{
-    display: block;
     background: url(../images/mv_sp.jpg) center center no-repeat;
     height: 70vh;
     background-size: cover;
@@ -26,7 +26,6 @@
   } 
 
   .mv h2{
-    display: block;
     color: #ffffff;
     font-size: 24px;
   }
