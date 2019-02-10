@@ -6,12 +6,11 @@ max-width:640px;
 margin:60px auto 240px;
 max-width:960px;
 }
-@media screen and (max-width:480px) { 
+@media screen and (max-width:480px) {
 .layout-detail,.layout-list{
-margin:40px 24px 200px 24px;
+margin:80px 24px 200px 24px;
 
 }
 
 
 }
-

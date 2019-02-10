@@ -7,7 +7,7 @@
 
 .breadcrumb li{
   margin-right: 20px;
-  font-size: 14px;
+  font-size: 10px;
   width: auto;
   color: #3d3d3d;
 }
@@ -16,6 +16,11 @@
 .breadcrumb li:after{
   content: ">";
   margin-left: 12px;
+}
+
+.breadcrumb li:last-child:after{
+  content: "";
+  margin-left: 0;
 }
 
 .breadcrumb li a{
